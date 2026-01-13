@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz - ATITO CIVIL ACADEMY</title>
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="../css/navbar-fix.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body class="bg-gray-50">
+
+    <div id="navbar-container"></div>
+
+    <div class="container py-5 mt-16">
+        <div class="max-w-3xl mx-auto bg-white rounded-lg shadow-lg overflow-hidden">
+            <!-- Quiz Header -->
+            <div class="bg-primary text-white p-6">
+                <h1 id="quiz-title" class="text-2xl font-bold mb-2">Quiz Title</h1>
+                <div class="flex justify-between items-center text-sm opacity-90">
+                    <span id="question-count">Question 1 of 10</span>
+                    <span id="timer" class="font-mono hidden"><i class="fas fa-clock mr-1"></i> 00:00</span>
+                </div>
+                <!-- Progress Bar -->
+                <div class="w-full bg-blue-900 h-2 rounded-full mt-4 overflow-hidden">
+                    <div id="progress-bar" class="bg-secondary h-full transition-all duration-300" style="width: 0%">
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quiz Content -->
+            <div id="quiz-content" class="p-6 md:p-8">
+                <!-- Question -->
+                <div class="mb-8">
+                    <h2 id="question-text" class="text-xl font-medium text-gray-800 mb-6">Loading question...</h2>
+
+                    <!-- Options -->
+                    <div id="options-container" class="space-y-3">
+                        <!-- Options injected here -->
+                    </div>
+                </div>
+
+                <!-- Navigation -->
+                <div class="flex justify-between items-center mt-8 pt-6 border-t">
+                    <button id="prev-btn" class="btn btn-outline hidden">Previous</button>
+                    <button id="next-btn" class="btn btn-primary ml-auto">Next Question</button>
+                    <button id="submit-btn" class="btn btn-success ml-auto hidden">Submit Quiz</button>
+                </div>
+            </div>
+
+            <!-- Results Section (Hidden by default) -->
+            <div id="results-section" class="hidden p-8 text-center">
+                <div class="mb-6">
+                    <div id="score-circle"
+                        class="w-32 h-32 rounded-full border-4 border-primary flex items-center justify-center mx-auto mb-4">
+                        <span id="score-text" class="text-3xl font-bold text-primary">0%</span>
+                    </div>
+                    <h2 class="text-2xl font-bold mb-2">Quiz Completed!</h2>
+                    <p id="result-message" class="text-gray-600">Great job!</p>
+                </div>
+
+                <div class="grid grid-cols-2 gap-4 mb-8 text-left max-w-sm mx-auto">
+                    <div class="bg-gray-100 p-3 rounded">
+                        <span class="block text-xs text-gray-500">Total Questions</span>
+                        <span id="total-questions" class="font-bold">0</span>
+                    </div>
+                    <div class="bg-green-100 p-3 rounded">
+                        <span class="block text-xs text-green-600">Correct</span>
+                        <span id="correct-answers" class="font-bold text-green-700">0</span>
+                    </div>
+                </div>
+
+                <div class="flex flex-col gap-4 justify-center items-center">
+                    <div class="flex gap-4">
+                        <button onclick="location.reload()" class="btn btn-outline">Retake Quiz</button>
+                        <button id="review-btn" class="btn btn-secondary">Review Answers</button>
+                    </div>
+                    <a href="courses.html" class="btn btn-link text-gray-600">Back to Course</a>
+
+                    <button id="certificate-btn" class="hidden btn btn-success btn-lg mt-4 animate-bounce">
+                        <i class="fas fa-certificate mr-2"></i> Get Certificate
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Scripts -->
+    <script type="module" src="../js/quiz.js"></script>
+    <script src="../js/dark-mode.js"></script>
+</body>
+
+</html>

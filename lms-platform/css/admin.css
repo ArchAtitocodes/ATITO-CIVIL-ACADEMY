@@ -1,0 +1,4 @@
+/* Admin Styles */
+aside a.active {
+    background-color: var(--primary-color);
+}

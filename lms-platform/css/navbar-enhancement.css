@@ -1,0 +1,387 @@
+/* ===================================================
+   PREMIUM NAVBAR ENHANCEMENT STYLES
+   Beautiful, Modern Design with Glassmorphism & Animations
+   =================================================== */
+
+/* ===== NAVBAR BASE STYLING ===== */
+nav {
+    backdrop-filter: blur(12px) saturate(180%);
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 0.95) 0%,
+            rgba(250, 252, 255, 0.98) 100%);
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.06),
+        0 2px 8px rgba(59, 130, 246, 0.1);
+    border-bottom: 1px solid rgba(96, 165, 250, 0.15);
+}
+
+/* ===== DESKTOP NAVIGATION LINKS ===== */
+.nav-link {
+    position: relative;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.01em;
+    color: #334155;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    display: inline-block;
+    overflow: hidden;
+    background: linear-gradient(135deg, transparent 0%, rgba(59, 130, 246, 0.05) 100%);
+}
+
+/* Animated gradient border effect */
+.nav-link::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 12px;
+    padding: 2px;
+    background: linear-gradient(135deg,
+            rgba(59, 130, 246, 0.4) 0%,
+            rgba(147, 51, 234, 0.4) 50%,
+            rgba(236, 72, 153, 0.4) 100%);
+    -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0);
+    mask-composite: exclude;
+    opacity: 0;
+    transition: opacity 0.35s ease;
+}
+
+.nav-link:hover::before {
+    opacity: 1;
+}
+
+.nav-link:hover {
+    transform: translateY(-3px) scale(1.03);
+    background: linear-gradient(135deg,
+            rgba(59, 130, 246, 0.12) 0%,
+            rgba(147, 51, 234, 0.08) 100%);
+    color: #3b82f6;
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.25),
+        0 3px 10px rgba(147, 51, 234, 0.15);
+}
+
+.nav-link.active,
+.nav-link[aria-current="page"] {
+    background: linear-gradient(135deg,
+            hsl(217, 91%, 60%) 0%,
+            hsl(271, 81%, 56%) 100%);
+    color: white;
+    font-weight: 600;
+    box-shadow: 0 6px 16px rgba(59, 130, 246, 0.35),
+        0 2px 8px rgba(147, 51, 234, 0.25),
+        inset 0 1px 3px rgba(255, 255, 255, 0.3);
+    transform: translateY(-2px);
+}
+
+/* ===== AUTH LINKS SECTION ===== */
+#auth-links {
+    gap: 18px;
+    margin-left: 28px;
+    padding-left: 28px;
+    border-left: 2px solid transparent;
+    background: linear-gradient(to right,
+            rgba(96, 165, 250, 0.2),
+            transparent) left / 1px 100% no-repeat;
+}
+
+/* Login Link Styling */
+.nav-auth-link {
+    position: relative;
+    padding: 10px 24px;
+    border-radius: 12px;
+    font-weight: 600;
+    font-size: 15px;
+    color: #3b82f6;
+    background: linear-gradient(135deg,
+            rgba(59, 130, 246, 0.1) 0%,
+            rgba(147, 51, 234, 0.05) 100%);
+    border: 2px solid rgba(59, 130, 246, 0.3);
+    transition: all 0.35s cubic-bezier(0.34, 1.56, 0.64, 1);
+    display: inline-block;
+    overflow: hidden;
+}
+
+.nav-auth-link::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-radius: 50%;
+    background: radial-gradient(circle,
+            rgba(59, 130, 246, 0.3) 0%,
+            transparent 70%);
+    transform: translate(-50%, -50%);
+    transition: width 0.5s ease, height 0.5s ease;
+}
+
+.nav-auth-link:hover::after {
+    width: 300px;
+    height: 300px;
+}
+
+.nav-auth-link:hover {
+    background: linear-gradient(135deg,
+            hsl(217, 91%, 60%) 0%,
+            hsl(271, 81%, 56%) 100%);
+    color: white;
+    border-color: transparent;
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.4),
+        0 5px 15px rgba(147, 51, 234, 0.3);
+}
+
+/* Register Button - Premium Style */
+.btn.btn-primary {
+    position: relative;
+    padding: 12px 32px;
+    border-radius: 14px;
+    font-weight: 700;
+    font-size: 15px;
+    letter-spacing: 0.02em;
+    color: white;
+    background: linear-gradient(135deg,
+            hsl(217, 91%, 60%) 0%,
+            hsl(271, 81%, 56%) 50%,
+            hsl(326, 78%, 60%) 100%);
+    background-size: 200% 200%;
+    border: none;
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.35),
+        0 3px 10px rgba(147, 51, 234, 0.25),
+        inset 0 1px 3px rgba(255, 255, 255, 0.25);
+    transition: all 0.4s cubic-bezier(0.34, 1.56, 0.64, 1);
+    overflow: hidden;
+    animation: gradientShift 3s ease infinite;
+}
+
+@keyframes gradientShift {
+
+    0%,
+    100% {
+        background-position: 0% 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+}
+
+.btn.btn-primary::before {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: radial-gradient(circle,
+            rgba(255, 255, 255, 0.3) 0%,
+            transparent 70%);
+    transform: scale(0);
+    transition: transform 0.6s ease;
+}
+
+.btn.btn-primary:hover::before {
+    transform: scale(1);
+}
+
+.btn.btn-primary:hover {
+    transform: translateY(-5px) scale(1.08);
+    box-shadow: 0 15px 35px rgba(59, 130, 246, 0.5),
+        0 8px 20px rgba(147, 51, 234, 0.4),
+        0 3px 10px rgba(236, 72, 153, 0.3),
+        inset 0 1px 3px rgba(255, 255, 255, 0.4);
+}
+
+.btn.btn-primary:active {
+    transform: translateY(-2px) scale(1.05);
+}
+
+/* ===== MOBILE NAVIGATION ===== */
+#mobile-menu {
+    backdrop-filter: blur(16px) saturate(180%);
+    background: linear-gradient(135deg,
+            rgba(255, 255, 255, 0.98) 0%,
+            rgba(248, 250, 252, 0.98) 100%);
+    border-top: 1px solid rgba(96, 165, 250, 0.2);
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.08);
+}
+
+/* Mobile Navigation Links */
+.mobile-nav-link {
+    padding: 14px 18px;
+    border-radius: 12px;
+    font-weight: 500;
+    color: #334155;
+    background: linear-gradient(135deg,
+            rgba(241, 245, 249, 0.5) 0%,
+            rgba(226, 232, 240, 0.3) 100%);
+    border: 2px solid rgba(148, 163, 184, 0.15);
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    display: block;
+    margin-bottom: 8px;
+}
+
+.mobile-nav-link:hover {
+    transform: translateX(8px) scale(1.02);
+    background: linear-gradient(135deg,
+            rgba(59, 130, 246, 0.12) 0%,
+            rgba(147, 51, 234, 0.08) 100%);
+    border-color: rgba(59, 130, 246, 0.4);
+    color: #3b82f6;
+    box-shadow: 0 6px 16px rgba(59, 130, 246, 0.2);
+}
+
+/* Mobile Auth Links */
+.mobile-auth-link {
+    padding: 14px 18px;
+    border-radius: 12px;
+    font-weight: 600;
+    text-align: center;
+    transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+    margin-top: 8px;
+}
+
+.mobile-auth-link.login {
+    color: #3b82f6;
+    background: linear-gradient(135deg,
+            rgba(59, 130, 246, 0.1) 0%,
+            rgba(147, 51, 234, 0.05) 100%);
+    border: 2px solid rgba(59, 130, 246, 0.3);
+}
+
+.mobile-auth-link.login:hover {
+    background: linear-gradient(135deg,
+            hsl(217, 91%, 60%) 0%,
+            hsl(271, 81%, 56%) 100%);
+    color: white;
+    border-color: transparent;
+    box-shadow: 0 8px 20px rgba(59, 130, 246, 0.35);
+}
+
+.mobile-auth-link.register {
+    color: white;
+    background: linear-gradient(135deg,
+            hsl(217, 91%, 60%) 0%,
+            hsl(271, 81%, 56%) 50%,
+            hsl(326, 78%, 60%) 100%);
+    border: none;
+    box-shadow: 0 6px 16px rgba(59, 130, 246, 0.3);
+}
+
+.mobile-auth-link.register:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(59, 130, 246, 0.45),
+        0 5px 15px rgba(236, 72, 153, 0.3);
+}
+
+/* ===== USER PROFILE DROPDOWN ===== */
+#user-profile {
+    padding: 10px 14px;
+    border-radius: 14px;
+    background: linear-gradient(135deg,
+            rgba(241, 245, 249, 0.5) 0%,
+            rgba(226, 232, 240, 0.3) 100%);
+    border: 2px solid rgba(148, 163, 184, 0.15);
+    transition: all 0.35s ease;
+}
+
+#user-profile:hover {
+    background: linear-gradient(135deg,
+            rgba(59, 130, 246, 0.1) 0%,
+            rgba(147, 51, 234, 0.05) 100%);
+    border-color: rgba(59, 130, 246, 0.4);
+    box-shadow: 0 6px 16px rgba(59, 130, 246, 0.2);
+    transform: translateY(-2px);
+}
+
+/* Dropdown Menu */
+#user-profile .absolute {
+    backdrop-filter: blur(16px) saturate(180%);
+    background: rgba(255, 255, 255, 0.98);
+    box-shadow: 0 12px 40px rgba(0, 0, 0, 0.12),
+        0 4px 16px rgba(59, 130, 246, 0.15);
+    border: 1px solid rgba(96, 165, 250, 0.2);
+}
+
+#user-profile .absolute a {
+    padding: 12px 18px;
+    border-left: 3px solid transparent;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+#user-profile .absolute a::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 0;
+    height: 100%;
+    background: linear-gradient(90deg,
+            rgba(59, 130, 246, 0.1) 0%,
+            transparent 100%);
+    transition: width 0.3s ease;
+}
+
+#user-profile .absolute a:hover::before {
+    width: 100%;
+}
+
+#user-profile .absolute a:hover {
+    border-left-color: #3b82f6;
+    padding-left: 24px;
+    background: rgba(59, 130, 246, 0.05);
+}
+
+#user-profile .absolute a:hover.text-danger {
+    border-left-color: #ef4444;
+    background: rgba(239, 68, 68, 0.05);
+}
+
+/* ===== MOBILE MENU BUTTON ===== */
+#mobile-menu-btn {
+    border-radius: 12px;
+    background: linear-gradient(135deg,
+            rgba(241, 245, 249, 0.8) 0%,
+            rgba(226, 232, 240, 0.5) 100%);
+    border: 2px solid rgba(148, 163, 184, 0.2);
+    transition: all 0.3s ease;
+}
+
+#mobile-menu-btn:hover {
+    background: linear-gradient(135deg,
+            rgba(59, 130, 246, 0.15) 0%,
+            rgba(147, 51, 234, 0.1) 100%);
+    border-color: rgba(59, 130, 246, 0.4);
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(59, 130, 246, 0.2);
+}
+
+/* ===== ACCESSIBILITY FOCUS STATES ===== */
+nav a:focus-visible,
+nav button:focus-visible {
+    outline: 3px solid hsl(217, 91%, 60%);
+    outline-offset: 3px;
+    border-radius: 12px;
+}
+
+/* ===== SMOOTH ANIMATIONS ===== */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(-10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.animate-fade-in {
+    animation: fadeIn 0.3s ease-out;
+}

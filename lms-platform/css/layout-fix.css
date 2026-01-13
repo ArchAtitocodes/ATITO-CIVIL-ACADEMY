@@ -1,0 +1,202 @@
+/* ==============================================
+   Z-INDEX MANAGEMENT & LAYOUT FIX
+   Ensures no content is blocked by other elements
+   ============================================== */
+
+/* Critical Z-Index Scale (from lowest to highest) */
+.z-base {
+    z-index: 1;
+}
+
+/* Base content */
+.z-sticky {
+    z-index: 1020;
+}
+
+/* Sticky elements, mobile menu */
+.z-fixed {
+    z-index: 1030;
+}
+
+/* Fixed navbar */
+.z-modal-backdrop {
+    z-index: 1040;
+}
+
+/* Modal backdrop */
+.z-modal {
+    z-index: 1050;
+}
+
+/* Modals */
+.z-dropdown {
+    z-index: 1070;
+}
+
+/* Dropdowns */
+.z-tooltip {
+    z-index: 1080;
+}
+
+/* Tooltips */
+
+/* Positioning Helpers to Prevent Overlap */
+.relative {
+    position: relative;
+}
+
+.fixed-top {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1030;
+}
+
+.sticky-top {
+    position: sticky;
+    top: 70px;
+    /* Below navbar */
+    z-index: 1020;
+}
+
+/* Safe Content Spacing - Prevents overlap with fixed elements */
+.content-safe {
+    padding-top: 80px;
+    /* Extra space below navbar */
+}
+
+.section-safe {
+    margin-top: 0;
+    padding-top: 2rem;
+    position: relative;
+    z-index: 1;
+}
+
+/* Modal Overlay - Prevents body scroll and blocks content properly */
+.modal-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1040;
+    backdrop-filter: blur(4px);
+}
+
+.modal-content {
+    position: relative;
+    z-index: 1050;
+}
+
+/* Dropdown Positioning Fix */
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    z-index: 1070;
+    min-width: 10rem;
+}
+
+/* Ensure Footer Doesn't Overlap */
+footer {
+    position: relative;
+    z-index: 1;
+    margin-top: auto;
+    /* Push to bottom if using flexbox body */
+}
+
+/* Prevent sections from overlapping */
+section+section {
+    margin-top: 0;
+    /* Remove default margin that might cause overlap */
+}
+
+/* Hero/Header sections that come right after navbar */
+.hero,
+header:first-of-type {
+    margin-top: 0;
+    position: relative;
+    z-index: 1;
+}
+
+/* Video Player Z-Index Fix */
+.video-container {
+    position: relative;
+    z-index: 1;
+}
+
+.video-controls {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 10;
+    /* Above video but below modals */
+}
+
+/* Admin Dashboard Sidebar Fix */
+.admin-sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: 1025;
+    /* Below navbar, above content */
+}
+
+.admin-content {
+    margin-left: 256px;
+    /* Sidebar width */
+    position: relative;
+    z-index: 1;
+}
+
+/* Responsive Admin Layout */
+@media (max-width: 768px) {
+    .admin-sidebar {
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    .admin-sidebar.open {
+        transform: translateX(0);
+        z-index: 1035;
+        /* Above navbar on mobile */
+    }
+
+    .admin-content {
+        margin-left: 0;
+    }
+}
+
+/* Toast/Notification Positioning */
+.toast-container {
+    position: fixed;
+    top: 90px;
+    /* Below navbar */
+    right: 1rem;
+    z-index: 1075;
+}
+
+.toast {
+    position: relative;
+    z-index: 1076;
+}
+
+/* Loading Overlay */
+.loading-overlay {
+    position: fixed;
+    inset: 0;
+    background: rgba(255, 255, 255, 0.9);
+    z-index: 2000;
+    /* Highest - blocks everything */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Prevent scrolling when modal is open */
+body.modal-open {
+    overflow: hidden;
+}

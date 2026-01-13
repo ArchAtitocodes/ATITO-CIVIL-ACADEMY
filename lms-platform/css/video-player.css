@@ -1,0 +1,694 @@
+/* ===============================================
+   VIDEO PLAYER - MODERN DESIGN SYSTEM v3.0.0 
+   Ultra-modern, interactive, glassmorphic design
+   =============================================== */
+
+/* ======================================
+   CSS CUSTOM PROPERTIES (Design Tokens)
+   ====================================== */
+:root {
+    /* Brand Colors */
+    --vp-primary: #0f4c81;
+    --vp-primary-900: #062338;
+    --vp-primary-700: #083150;
+    --vp-primary-500: #1861a6;
+    --vp-primary-300: #4f86c6;
+    --vp-primary-100: #d4e4f7;
+
+    --vp-accent: #f59e0b;
+    --vp-accent-700: #b26503;
+    --vp-accent-500: #fbbf24;
+    --vp-accent-300: #fcd34d;
+
+    --vp-secondary: #8b5cf6;
+    --vp-secondary-light: #a78bfa;
+
+    /* Neutrals */
+    --vp-white: #ffffff;
+    --vp-black: #0b1020;
+    --vp-gray-50: #f8fafc;
+    --vp-gray-100: #f1f5f9;
+    --vp-gray-200: #e2e8f0;
+    --vp-gray-300: #cbd5e1;
+    --vp-gray-400: #94a3b8;
+    --vp-gray-500: #64748b;
+    --vp-gray-600: #475569;
+    --vp-gray-700: #334155;
+    --vp-gray-800: #1e293b;
+    --vp-gray-900: #0f172a;
+
+    /* Semantic Colors */
+    --vp-success: #16a34a;
+    --vp-success-light: #86efac;
+    --vp-danger: #ef4444;
+    --vp-danger-light: #fca5a5;
+    --vp-info: #0ea5e9;
+
+    /* Glassmorphism */
+    --vp-glass-1: rgba(255, 255, 255, 0.08);
+    --vp-glass-2: rgba(255, 255, 255, 0.05);
+    --vp-glass-3: rgba(255, 255, 255, 0.03);
+    --vp-overlay: rgba(11, 16, 32, 0.6);
+
+    /* Interactive Overlays */
+    --vp-hover-overlay: rgba(15, 76, 129, 0.06);
+    --vp-active-overlay: rgba(15, 76, 129, 0.12);
+    --vp-focus-ring: rgba(15, 76, 129, 0.2);
+
+    /* Gradients */
+    --vp-gradient-hero: linear-gradient(135deg, #0f4c81 0%, #2a6fb0 50%, #7fb3ff 100%);
+    --vp-gradient-accent: linear-gradient(135deg, #f59e0b 0%, #fb923c 50%, #fbbf24 100%);
+    --vp-gradient-glass: linear-gradient(135deg, rgba(255, 255, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%);
+    --vp-gradient-mesh: radial-gradient(at 0% 0%, rgba(139, 92, 246, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 0%, rgba(15, 76, 129, 0.15) 0px, transparent 50%),
+        radial-gradient(at 100% 100%, rgba(245, 158, 11, 0.15) 0px, transparent 50%);
+
+    /* Typography */
+    --vp-font-ui: 'Inter', system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+    --vp-font-mono: 'Fira Code', ui-monospace, 'SF Mono', monospace;
+
+    /* Spacing */
+    --vp-space-1: 4px;
+    --vp-space-2: 8px;
+    --vp-space-3: 12px;
+    --vp-space-4: 16px;
+    --vp-space-5: 20px;
+    --vp-space-6: 24px;
+    --vp-space-8: 32px;
+    --vp-space-10: 40px;
+    --vp-space-12: 48px;
+    --vp-space-16: 64px;
+
+    /* Border Radius */
+    --vp-radius-sm: 8px;
+    --vp-radius-md: 12px;
+    --vp-radius-lg: 16px;
+    --vp-radius-xl: 24px;
+    --vp-radius-2xl: 32px;
+    --vp-radius-pill: 9999px;
+
+    /* Shadows */
+    --vp-shadow-sm: 0 2px 8px rgba(11, 34, 70, 0.06), 0 1px 2px rgba(11, 34, 70, 0.04);
+    --vp-shadow-md: 0 8px 24px rgba(11, 34, 70, 0.08), 0 2px 6px rgba(11, 34, 70, 0.04);
+    --vp-shadow-lg: 0 16px 48px rgba(11, 34, 70, 0.12), 0 4px 12px rgba(11, 34, 70, 0.06);
+    --vp-shadow-xl: 0 24px 64px rgba(11, 34, 70, 0.16), 0 8px 20px rgba(11, 34, 70, 0.08);
+    --vp-shadow-2xl: 0 32px 96px rgba(11, 34, 70, 0.2), 0 12px 32px rgba(11, 34, 70, 0.1);
+    --vp-shadow-glow: 0 0 32px rgba(15, 76, 129, 0.3);
+    --vp-shadow-glow-accent: 0 0 32px rgba(245, 158, 11, 0.3);
+
+    /* Blur */
+    --vp-blur-sm: 4px;
+    --vp-blur-md: 8px;
+    --vp-blur-lg: 16px;
+    --vp-blur-xl: 24px;
+
+    /* Transitions */
+    --vp-trans-fast: 150ms cubic-bezier(0.2, 0.9, 0.2, 1);
+    --vp-trans-normal: 250ms cubic-bezier(0.2, 0.9, 0.2, 1);
+    --vp-trans-slow: 350ms cubic-bezier(0.2, 0.9, 0.2, 1);
+    --vp-trans-spring: 350ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+/* ======================================
+   PAGE LAYOUT & BACKGROUND
+   ====================================== */
+.video-player-page {
+    min-height: 100vh;
+    background: var(--vp-gradient-mesh);
+    position: relative;
+    overflow-x: hidden;
+    /* Navbar-fix.css handles padding-top */
+    padding-bottom: var(--vp-space-16);
+}
+
+/* Decorative Background Elements */
+.video-player-page::before,
+.video-player-page::after {
+    content: '';
+    position: fixed;
+    border-radius: 50%;
+    filter: blur(80px);
+    opacity: 0.5;
+    pointer-events: none;
+    z-index: 0;
+}
+
+.video-player-page::before {
+    top: 70px;
+    /* Start below navbar */
+    right: -5%;
+    width: 40%;
+    height: 40%;
+    background: radial-gradient(circle, rgba(139, 92, 246, 0.15), transparent 70%);
+    animation: vp-float 20s ease-in-out infinite;
+}
+
+.video-player-page::after {
+    bottom: -15%;
+    left: -10%;
+    width: 50%;
+    height: 50%;
+    background: radial-gradient(circle, rgba(245, 158, 11, 0.1), transparent 70%);
+    animation: vp-float 25s ease-in-out infinite reverse;
+}
+
+/* ======================================
+   VIDEO CONTAINER
+   ====================================== */
+.video-player-container {
+    position: relative;
+    z-index: 1;
+}
+
+.video-container {
+    position: relative;
+    background: linear-gradient(180deg, rgba(11, 16, 32, 0.95), rgba(11, 16, 32, 0.98));
+    border-radius: var(--vp-radius-2xl);
+    padding: var(--vp-space-4);
+    box-shadow: var(--vp-shadow-2xl);
+    overflow: hidden;
+    animation: vp-fadeUp 600ms ease-out;
+}
+
+.video-container::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: var(--vp-gradient-glass);
+    pointer-events: none;
+    opacity: 0.1;
+}
+
+.video-container video {
+    width: 100%;
+    border-radius: var(--vp-radius-lg);
+    box-shadow: var(--vp-shadow-lg);
+    display: block;
+}
+
+/* ======================================
+   CUSTOM VIDEO CONTROLS
+   ====================================== */
+.video-container .controls {
+    display: flex;
+    align-items: center;
+    gap: var(--vp-space-3);
+    padding: var(--vp-space-3) var(--vp-space-4);
+    background: rgba(15, 23, 42, 0.8);
+    backdrop-filter: blur(var(--vp-blur-md));
+    -webkit-backdrop-filter: blur(var(--vp-blur-md));
+    border-radius: var(--vp-radius-md);
+    margin-top: var(--vp-space-3);
+    transition: var(--vp-trans-normal);
+}
+
+.video-container .controls:hover {
+    background: rgba(15, 23, 42, 0.9);
+}
+
+.video-container .controls button {
+    width: 44px;
+    height: 44px;
+    border-radius: var(--vp-radius-md);
+    background: transparent;
+    border: none;
+    color: var(--vp-white);
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all var(--vp-trans-fast);
+    font-size: 1.1rem;
+}
+
+.video-container .controls button:hover {
+    background: rgba(255, 255, 255, 0.1);
+    transform: scale(1.05);
+}
+
+.video-container .controls button:active {
+    transform: scale(0.95);
+}
+
+/* Seek Bar */
+.seek-bar-container {
+    flex: 1;
+    position: relative;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: var(--vp-radius-pill);
+    cursor: pointer;
+    transition: height var(--vp-trans-fast);
+}
+
+.seek-bar-container:hover {
+    height: 8px;
+}
+
+.seek-bar {
+    width: 100%;
+    height: 100%;
+    appearance: none;
+    -webkit-appearance: none;
+    background: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.seek-bar::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: var(--vp-radius-pill);
+}
+
+.seek-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 14px;
+    height: 14px;
+    background: var(--vp-white);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: var(--vp-shadow-md);
+    margin-top: -4px;
+    transition: transform var(--vp-trans-fast);
+}
+
+.seek-bar:hover::-webkit-slider-thumb {
+    transform: scale(1.2);
+}
+
+.seek-bar::-moz-range-track {
+    width: 100%;
+    height: 6px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: var(--vp-radius-pill);
+}
+
+.seek-bar::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    background: var(--vp-white);
+    border-radius: 50%;
+    cursor: pointer;
+    box-shadow: var(--vp-shadow-md);
+    border: none;
+}
+
+/* Progress Bar (visual overlay on seek bar) */
+.seek-progress {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    height: 100%;
+    background: var(--vp-gradient-hero);
+    border-radius: var(--vp-radius-pill);
+    pointer-events: none;
+    transition: width var(--vp-trans-fast);
+}
+
+/* Time Display */
+#time-display {
+    font-family: var(--vp-font-mono);
+    font-size: 0.85rem;
+    color: var(--vp-gray-300);
+    font-weight: 500;
+    min-width: 100px;
+    text-align: center;
+}
+
+/* Volume Bar */
+#volume-bar {
+    width: 80px;
+    appearance: none;
+    -webkit-appearance: none;
+    height: 4px;
+    background: rgba(255, 255, 255, 0.2);
+    border-radius: var(--vp-radius-pill);
+    cursor: pointer;
+}
+
+#volume-bar::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 12px;
+    height: 12px;
+    background: var(--vp-white);
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#volume-bar::-moz-range-thumb {
+    width: 12px;
+    height: 12px;
+    background: var(--vp-white);
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+}
+
+/* ======================================
+   NAVIGATION BUTTONS
+   ====================================== */
+.lesson-navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--vp-space-4);
+    margin-bottom: var(--vp-space-5);
+    animation: vp-fadeUp 600ms ease-out 100ms backwards;
+}
+
+.lesson-navigation .btn {
+    display: inline-flex;
+    align-items: center;
+    gap: var(--vp-space-2);
+    padding: 12px 20px;
+    border-radius: var(--vp-radius-md);
+    font-weight: 600;
+    transition: all var(--vp-trans-spring);
+    border: 2px solid transparent;
+}
+
+.lesson-navigation .btn-outline {
+    background: var(--vp-white);
+    color: var(--vp-gray-700);
+    border-color: var(--vp-gray-200);
+}
+
+.lesson-navigation .btn-outline:hover {
+    border-color: var(--vp-primary-300);
+    background: var(--vp-hover-overlay);
+    transform: translateY(-2px);
+    box-shadow: var(--vp-shadow-md);
+}
+
+.lesson-navigation .btn-primary {
+    background: var(--vp-primary);
+    color: var(--vp-white);
+    box-shadow: var(--vp-shadow-sm);
+}
+
+.lesson-navigation .btn-primary:hover {
+    background: var(--vp-primary-500);
+    transform: translateY(-2px);
+    box-shadow: var(--vp-shadow-lg);
+}
+
+/* ======================================
+   LESSON INFO
+   ====================================== */
+.lesson-info {
+    animation: vp-fadeUp 600ms ease-out 200ms backwards;
+}
+
+.lesson-info h1 {
+    font-size: clamp(1.75rem, 4vw, 2.5rem);
+    font-weight: 800;
+    line-height: 1.2;
+    letter-spacing: -0.02em;
+    background: var(--vp-gradient-hero);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin-bottom: var(--vp-space-2);
+}
+
+.lesson-info p {
+    color: var(--vp-gray-600);
+    font-size: 1.05rem;
+    line-height: 1.6;
+}
+
+/* ======================================
+   COURSE PLAYLIST SIDEBAR
+   ====================================== */
+.playlist-container {
+    background: rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(var(--vp-blur-lg)) saturate(180%);
+    -webkit-backdrop-filter: blur(var(--vp-blur-lg)) saturate(180%);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: var(--vp-radius-xl);
+    padding: var(--vp-space-6);
+    box-shadow: var(--vp-shadow-lg);
+    height: 100%;
+    animation: vp-fadeUp 600ms ease-out 300ms backwards;
+}
+
+.playlist-container h3 {
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--vp-gray-900);
+    margin-bottom: var(--vp-space-4);
+    padding-bottom: var(--vp-space-3);
+    border-bottom: 2px solid var(--vp-gray-200);
+}
+
+/* Playlist Items */
+#playlist {
+    display: flex;
+    flex-direction: column;
+    gap: var(--vp-space-3);
+    max-height: 500px;
+    overflow-y: auto;
+    padding-right: var(--vp-space-2);
+}
+
+/* Custom Scrollbar */
+#playlist::-webkit-scrollbar {
+    width: 6px;
+}
+
+#playlist::-webkit-scrollbar-track {
+    background: var(--vp-gray-100);
+    border-radius: var(--vp-radius-pill);
+}
+
+#playlist::-webkit-scrollbar-thumb {
+    background: var(--vp-primary-300);
+    border-radius: var(--vp-radius-pill);
+}
+
+#playlist::-webkit-scrollbar-thumb:hover {
+    background: var(--vp-primary-500);
+}
+
+.playlist-item {
+    padding: var(--vp-space-4);
+    border-radius: var(--vp-radius-md);
+    background: var(--vp-white);
+    border: 2px solid var(--vp-gray-200);
+    cursor: pointer;
+    transition: all var(--vp-trans-normal);
+    position: relative;
+}
+
+.playlist-item:hover {
+    transform: translateX(4px);
+    border-color: var(--vp-primary-300);
+    background: var(--vp-hover-overlay);
+    box-shadow: var(--vp-shadow-md);
+}
+
+.playlist-item.active {
+    border-color: var(--vp-primary);
+    background: var(--vp-active-overlay);
+    box-shadow: var(--vp-shadow-md);
+}
+
+.playlist-item.active::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 4px;
+    height: 60%;
+    background: var(--vp-primary);
+    border-radius: 0 var(--vp-radius-pill) var(--vp-radius-pill) 0;
+}
+
+.playlist-item-title {
+    font-weight: 600;
+    color: var(--vp-gray-900);
+    margin-bottom: var(--vp-space-1);
+    font-size: 0.95rem;
+}
+
+.playlist-item.active .playlist-item-title {
+    color: var(--vp-primary);
+}
+
+.playlist-item-meta {
+    display: flex;
+    align-items: center;
+    gap: var(--vp-space-3);
+    font-size: 0.85rem;
+    color: var(--vp-gray-500);
+}
+
+.playlist-item-meta i {
+    font-size: 0.75rem;
+}
+
+/* Lesson Progress */
+.lesson-progress {
+    margin-top: var(--vp-space-3);
+    height: 4px;
+    background: var(--vp-gray-200);
+    border-radius: var(--vp-radius-pill);
+    overflow: hidden;
+}
+
+.lesson-progress-bar {
+    height: 100%;
+    background: var(--vp-gradient-hero);
+    border-radius: var(--vp-radius-pill);
+    transition: width var(--vp-trans-slow);
+}
+
+/* ======================================
+   ANIMATIONS
+   ====================================== */
+@keyframes vp-fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes vp-fadeUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes vp-scaleIn {
+    from {
+        opacity: 0;
+        transform: scale(0.95);
+    }
+
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+@keyframes vp-float {
+
+    0%,
+    100% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+}
+
+/* ======================================
+   RESPONSIVE DESIGN
+   ====================================== */
+@media (max-width: 900px) {
+    .lesson-navigation {
+        flex-wrap: wrap;
+    }
+
+    .lesson-info h1 {
+        font-size: 1.75rem;
+    }
+
+    .playlist-container {
+        margin-top: var(--vp-space-6);
+    }
+
+    #playlist {
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 640px) {
+    .video-container {
+        padding: var(--vp-space-3);
+    }
+
+    .video-container .controls {
+        padding: var(--vp-space-2) var(--vp-space-3);
+        gap: var(--vp-space-2);
+    }
+
+    .video-container .controls button {
+        width: 36px;
+        height: 36px;
+        font-size: 0.95rem;
+    }
+
+    #time-display {
+        font-size: 0.75rem;
+        min-width: 80px;
+    }
+
+    #volume-bar {
+        width: 60px;
+    }
+
+    .lesson-navigation .btn {
+        padding: 10px 16px;
+        font-size: 0.9rem;
+    }
+
+    .playlist-container {
+        padding: var(--vp-space-4);
+    }
+}
+
+/* ======================================
+   DARK MODE SUPPORT
+   ====================================== */
+html.dark .playlist-container {
+    background: rgba(30, 41, 59, 0.7);
+    border-color: rgba(255, 255, 255, 0.1);
+}
+
+html.dark .playlist-container h3 {
+    color: var(--vp-gray-100);
+    border-bottom-color: var(--vp-gray-700);
+}
+
+html.dark .playlist-item {
+    background: var(--vp-gray-800);
+    border-color: var(--vp-gray-700);
+}
+
+html.dark .playlist-item:hover {
+    background: rgba(15, 76, 129, 0.15);
+    border-color: var(--vp-primary-500);
+}
+
+html.dark .playlist-item.active {
+    background: rgba(15, 76, 129, 0.25);
+}
+
+html.dark .playlist-item-title {
+    color: var(--vp-gray-100);
+}
+
+html.dark .playlist-item.active .playlist-item-title {
+    color: var(--vp-primary-300);
+}
+
+html.dark .lesson-info p {
+    color: var(--vp-gray-400);
+}

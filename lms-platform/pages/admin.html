@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard - ATITO CIVIL ACADEMY</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/navbar-fix.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="../css/admin.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="flex h-screen overflow-hidden">
+        <!-- Sidebar -->
+        <aside class="w-64 bg-gray-900 text-white flex flex-col">
+            <div class="p-4 text-center border-b border-gray-800">
+                <h2 class="text-xl font-bold text-secondary">ATITO ADMIN</h2>
+            </div>
+            <nav class="flex-grow p-4 space-y-2">
+                <a href="#" class="block p-3 rounded bg-primary text-white"><i class="fas fa-tachometer-alt mr-2"></i>
+                    Dashboard</a>
+                <a href="#" class="block p-3 rounded hover:bg-gray-800"><i class="fas fa-book mr-2"></i> Courses</a>
+                <a href="#" class="block p-3 rounded hover:bg-gray-800"><i class="fas fa-users mr-2"></i> Students</a>
+                <a href="#" class="block p-3 rounded hover:bg-gray-800"><i class="fas fa-cog mr-2"></i> Settings</a>
+            </nav>
+            <div class="p-4 border-t border-gray-800">
+                <a href="#" id="admin-logout-link" class="block p-2 text-danger hover:text-white"><i
+                        class="fas fa-sign-out-alt mr-2"></i> Logout</a>
+            </div>
+        </aside>
+
+        <!-- Main Content -->
+        <main class="flex-1 overflow-y-auto bg-gray-100 p-5">
+            <header class="flex justify-between items-center mb-5">
+                <h1 class="text-2xl font-bold">Dashboard Overview</h1>
+                <div class="flex items-center gap-3">
+                    <span id="admin-user-display">Admin User</span>
+                    <div class="w-10 h-10 bg-primary rounded-full flex items-center justify-center text-white"
+                        id="admin-avatar">A</div>
+                </div>
+            </header>
+
+            <!-- Stats -->
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-4 mb-5">
+                <div class="bg-white p-4 rounded shadow">
+                    <div class="text-gray-500">Total Students</div>
+                    <div class="text-3xl font-bold" id="total-students-count">0</div>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <div class="text-gray-500">Active Courses</div>
+                    <div class="text-3xl font-bold" id="active-courses-count">0</div>
+                </div>
+                <!-- ... other stats ... -->
+                <div class="bg-white p-4 rounded shadow">
+                    <div class="text-gray-500">Revenue</div>
+                    <div class="text-3xl font-bold">KES 0</div>
+                </div>
+                <div class="bg-white p-4 rounded shadow">
+                    <div class="text-gray-500">New Signups</div>
+                    <div class="text-3xl font-bold">0</div>
+                </div>
+            </div>
+
+            <!-- Course Management -->
+            <div class="bg-white rounded shadow p-5">
+                <div class="flex justify-between items-center mb-4">
+                    <h2 class="text-xl font-bold">Manage Courses</h2>
+                    <button class="btn btn-primary btn-sm" id="btn-add-course">
+                        <i class="fas fa-plus"></i> Add Course
+                    </button>
+                </div>
+
+                <table class="w-full text-left border-collapse">
+                    <thead>
+                        <tr class="bg-gray-100 border-b">
+                            <th class="p-3">Title</th>
+                            <th class="p-3">Category</th>
+                            <th class="p-3">Instructor</th>
+                            <th class="p-3">Actions</th>
+                        </tr>
+                    </thead>
+                    <tbody id="admin-course-list">
+                        <!-- Injected via JS -->
+                    </tbody>
+                </table>
+            </div>
+        </main>
+    </div>
+
+    <!-- Add Course Modal -->
+    <div id="add-course-modal"
+        class="fixed inset-0 bg-black bg-opacity-50 hidden flex items-center justify-center z-50">
+        <div class="bg-white p-5 rounded shadow-lg w-full max-w-lg">
+            <h2 class="text-xl font-bold mb-4">Add New Course</h2>
+            <form id="add-course-form">
+                <input type="text" id="new-course-title" placeholder="Course Title"
+                    class="mb-2 w-full p-2 border rounded" required>
+                <select id="new-course-category" class="mb-2 w-full p-2 border rounded" required>
+                    <option value="Construction">Construction</option>
+                    <option value="CAD">CAD</option>
+                    <option value="Structural">Structural</option>
+                </select>
+                <input type="text" id="new-course-instructor" placeholder="Instructor Name"
+                    class="mb-2 w-full p-2 border rounded" required>
+                <textarea id="new-course-description" placeholder="Description" class="mb-2 w-full p-2 border rounded"
+                    required></textarea>
+                <div class="flex justify-end gap-2 mt-3">
+                    <button type="button" class="btn btn-outline" id="btn-close-modal">Cancel</button>
+                    <button type="submit" class="btn btn-primary">Save Course</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script type="module" src="../js/admin-page.js"></script>
+    <script src="../js/dark-mode.js"></script>
+</body>
+
+</html>

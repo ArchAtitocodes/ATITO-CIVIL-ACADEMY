@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All Courses - Construction & CAD Mastery LMS</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/navbar-fix.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="navbar-container"></div>
+
+    <header class="bg-primary text-white py-5">
+        <div class="container text-center">
+            <h1 class="text-3xl font-bold mb-2">Explore Our Courses</h1>
+            <p class="text-lg opacity-90 max-w-3xl mx-auto">
+                Master modern construction workflows and CAD technologies through structured, practical, and
+                industry-aligned training across Building Construction Technology, AutoCAD, Revit, ArchiCAD, and
+                Structural Drafting.
+            </p>
+        </div>
+    </header>
+
+    <section class="section-padding">
+        <div class="container">
+            <!-- Filters -->
+            <div class="flex flex-wrap justify-center gap-3 mb-5">
+                <button class="filter-btn filter-btn-enhanced active" data-filter="all">All</button>
+                <button class="filter-btn filter-btn-enhanced" data-filter="Construction">Construction</button>
+                <button class="filter-btn filter-btn-enhanced" data-filter="CAD">CAD</button>
+                <button class="filter-btn filter-btn-enhanced" data-filter="BIM">BIM</button>
+                <button class="filter-btn filter-btn-enhanced" data-filter="Structural">Structural</button>
+                <button class="filter-btn filter-btn-enhanced" data-filter="Building Services">Building
+                    Services</button>
+                <button class="filter-btn filter-btn-enhanced" data-filter="Quantity Surveying">Quantity
+                    Surveying</button>
+            </div>
+
+            <!-- Course Grid -->
+            <div id="courses-grid" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+                <!-- Courses injected here -->
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+
+    <script type="module" src="../js/courses.js"></script>
+    <script src="../js/dark-mode.js"></script>
+</body>
+
+</html>

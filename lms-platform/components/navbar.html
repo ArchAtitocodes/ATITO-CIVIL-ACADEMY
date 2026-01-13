@@ -1,0 +1,92 @@
+<nav class="bg-white shadow-md fixed w-full top-0 border-b border-gray-200 relative" style="z-index: 1030;">
+    <div class="container flex justify-between items-center py-1.5">
+        <a href="../pages/index.html" class="flex items-center gap-3 group">
+            <!-- Logo Icon (Simple SVG) -->
+            <div <ul class="flex items-center hidden md:flex" style="gap: 2rem;">
+                <svg width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <rect width="40" height="40" rx="8" fill="currentColor" />
+                    <path d="M10 30L20 10L30 30H25L20 20L15 30H10Z" fill="white" />
+                </svg>
+            </div>
+            <span class="text-xl font-bold text-dark tracking-tight">ATITO <span class="text-primary">CIVIL
+                    ACADEMY</span></span>
+        </a>
+        <br>
+
+
+        <!-- Desktop Menu -->
+        <ul class="flex items-center hidden md:flex" style="gap: 2rem;">
+            <li><a href="../pages/index.html" class="nav-link">Home</a>
+            </li>
+            <li><a href="../pages/courses.html" class="nav-link">Courses</a>
+            </li>
+            <li><a href="../pages/about.html" class="nav-link">About</a>
+            </li>
+            <li><a href="../pages/contact.html" class="nav-link">Contact</a>
+            </li>
+
+            <!-- Auth Links -->
+            <div id="auth-links" class="flex items-center"
+                style="gap: 1.5rem; margin-left: 2.5rem; padding-left: 2.5rem; border-left: 2px solid #e5e7eb;">
+                <li><a href="../pages/login.html" class="nav-auth-link">Login</a></li>
+                <li><a href="../pages/register.html" class="btn btn-primary btn-sm rounded-full px-6 py-2.5">Register
+                        Course</a></li>
+            </div>
+
+            <!-- User Profile (Hidden by default) -->
+            <div id="user-profile" class="hidden flex items-center gap-3 ml-4 relative group cursor-pointer">
+                <div class="text-right hidden lg:block">
+                    <div class="text-xs text-light">Welcome back,</div>
+                    <div class="font-bold text-sm text-dark" id="user-name-display">Student</div>
+                </div>
+                <div
+                    class="w-10 h-10 bg-primary-light rounded-full flex items-center justify-center text-primary font-bold border border-primary shadow-sm">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+                <!-- Dropdown -->
+                <div class="absolute right-0 top-full mt-2 w-48 bg-white shadow-xl rounded-lg py-2 hidden group-hover:block border border-gray-100 animate-fade-in"
+                    style="z-index: 1070;">
+                    <a href="../pages/dashboard.html"
+                        class="block px-4 py-2 hover:bg-gray-50 text-dark transition-colors"><i
+                            class="fas fa-tachometer-alt mr-2 text-primary"></i> Dashboard</a>
+                    <a href="../pages/profile.html"
+                        class="block px-4 py-2 hover:bg-gray-50 text-dark transition-colors"><i
+                            class="fas fa-user mr-2 text-primary"></i> Profile</a>
+                    <div class="border-t border-gray-100 my-1"></div>
+                    <a href="#" onclick="Auth.logout()"
+                        class="block px-4 py-2 hover:bg-red-50 text-danger transition-colors"><i
+                            class="fas fa-sign-out-alt mr-2"></i> Logout</a>
+                </div>
+            </div>
+            <!-- Theme Switcher placeholder - will be filled by dark-mode.js -->
+            <div class="theme-switcher"></div>
+        </ul>
+
+        <!-- Mobile Menu Button -->
+        <button id="mobile-menu-btn" class="md:hidden text-2xl text-dark p-2 hover:bg-gray-100 rounded">
+            <i class="fas fa-bars"></i>
+        </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-t p-4 shadow-lg absolute w-full left-0 top-full"
+        style="z-index: 1020;">
+        <ul class="flex flex-col gap-3">
+            <li><a href="../pages/index.html" class="mobile-nav-link">Home</a></li>
+            <li><a href="../pages/courses.html" class="mobile-nav-link">All Courses</a></li>
+            <li><a href="../pages/about.html" class="mobile-nav-link">About Us</a></li>
+            <li><a href="../pages/contact.html" class="mobile-nav-link">Contact</a></li>
+            <div class="border-t my-2"></div>
+            <li><a href="../pages/login.html" class="mobile-auth-link login">Login</a>
+            <li><a href="../pages/register.html" class="mobile-auth-link register">Register</a>
+                <!-- Theme Switcher for Mobile -->
+            <li class="theme-switcher-mobile"></li>
+        </ul>
+    </div>
+
+</nav>
+<!-- Spacer for fixed navbar - Ensures content doesn't get hidden behind navbar -->
+<div class="navbar-spacer" style="height: 70px;"></div>

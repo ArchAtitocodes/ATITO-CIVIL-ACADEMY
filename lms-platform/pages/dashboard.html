@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Dashboard - ATITO CIVIL ACADEMY</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/navbar-fix.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="../css/dashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="navbar-container"></div>
+
+    <div class="container section-padding">
+        <div class="flex flex-col md:flex-row gap-5">
+            <!-- Sidebar -->
+            <aside class="w-full md:w-1/4 bg-white p-4 rounded shadow h-fit">
+                <div class="text-center mb-4">
+                    <div
+                        class="w-20 h-20 bg-gray-200 rounded-full mx-auto flex items-center justify-center text-3xl text-primary font-bold mb-2">
+                        <i class="fas fa-user"></i>
+                    </div>
+                    <h3 id="student-name" class="font-bold text-lg">Student Name</h3>
+                    <p class="text-gray-500 text-sm">Civil Engineering Student</p>
+                </div>
+                <nav class="space-y-2">
+                    <h2 class="text-2xl font-bold mb-4">My Learning Progress</h2>
+
+                    <!-- Stats -->
+                    <div class="grid grid-cols-1 gap-4 mb-5">
+                        <div class="bg-white p-4 rounded shadow border-l-4 border-primary">
+                            <div class="text-gray-500 text-sm">Courses Enrolled</div>
+                            <div class="text-2xl font-bold" id="enrolled-count">0</div>
+                        </div>
+                        <div class="bg-white p-4 rounded shadow border-l-4 border-success">
+                            <div class="text-gray-500 text-sm">Completed</div>
+                            <div class="text-2xl font-bold">0</div>
+                        </div>
+                        <div class="bg-white p-4 rounded shadow border-l-4 border-secondary">
+                            <div class="text-gray-500 text-sm">Certificates</div>
+                            <div class="text-2xl font-bold">0</div>
+                        </div>
+                    </div>
+
+                    <!-- Announcements -->
+                    <div class="bg-gradient-secondary text-white p-4 rounded shadow mb-5">
+                        <h3 class="text-lg font-bold mb-2"><i class="fas fa-bullhorn mr-2"></i>Announcements</h3>
+                        <p class="text-sm opacity-90">Welcome to Construction & CAD Mastery LMS! Start your learning
+                            journey
+                            today and achieve your career goals.</p>
+                    </div>
+
+                    <!-- Enrolled Courses -->
+                    <h3 class="text-xl font-bold mb-3">Continue Learning</h3>
+                    <div id="enrolled-courses-list" class="space-y-4 mb-5">
+                        <!-- Dynamically rendered -->
+                    </div>
+
+                    <!-- Recently Viewed -->
+                    <h3 class="text-xl font-bold mb-3">Recently Viewed Lessons</h3>
+                    <div class="bg-white p-4 rounded shadow mb-5">
+                        <p class="text-gray-500 text-sm">No recent lessons. Start learning to see your progress here!
+                        </p>
+                    </div>
+
+                    <!-- Quick Actions -->
+                    <div class="grid grid-cols-1 gap-4">
+                        <a href="courses.html"
+                            class="bg-white p-4 rounded shadow hover:shadow-lg transition-all text-center">
+                            <i class="fas fa-compass text-3xl text-primary mb-2"></i>
+                            <div class="font-bold">Browse Courses</div>
+                        </a>
+                        <a href="#" class="bg-white p-4 rounded shadow hover:shadow-lg transition-all text-center">
+                            <i class="fas fa-download text-3xl text-primary mb-2"></i>
+                            <div class="font-bold">Download Resources</div>
+                        </a>
+                    </div>
+                </nav>
+            </aside>
+
+            <!-- Main Content -->
+            <main class="flex-1">
+                <h2 class="text-2xl font-bold mb-4">Welcome to Your Dashboard</h2>
+                <p class="text-gray-600 mb-5">Track your progress, continue learning, and achieve your career goals in
+                    construction and CAD technologies.</p>
+
+                <!-- Learning Path Visualization -->
+                <div class="bg-white p-6 rounded shadow mb-5">
+                    <h3 class="text-xl font-bold mb-4">Your Learning Path</h3>
+                    <p class="text-gray-600">Enroll in courses from the sidebar to start tracking your progress here.
+                    </p>
+                </div>
+
+                <!-- Recent Activity -->
+                <div class="bg-white p-6 rounded shadow">
+                    <h3 class="text-xl font-bold mb-4">Recent Activity</h3>
+                    <p class="text-gray-600">Your recent learning activities will appear here once you start taking
+                        courses.</p>
+                </div>
+            </main>
+        </div>
+    </div>
+
+    <div id="footer-container"></div>
+
+    <script type="module" src="../js/dashboard-page.js"></script>
+    <script src="../js/dark-mode.js"></script>
+</body>
+
+</html>

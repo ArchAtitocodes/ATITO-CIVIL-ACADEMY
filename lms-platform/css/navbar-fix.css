@@ -1,0 +1,348 @@
+/* ======================================
+   NAVBAR STICKY FIX - COMPREHENSIVE
+   Ensures navbar sticks to top during scroll without blocking ANY content
+   ====================================== */
+
+/* Ensure navbar stays on top with proper z-index and solid background */
+nav {
+    position: fixed !important;
+    top: 0 !important;
+    left: 0 !important;
+    right: 0 !important;
+    width: 100% !important;
+    z-index: var(--z-sticky, 1020) !important;
+    transition: all 0.3s ease-in-out;
+    background-color: rgba(255, 255, 255, 0.8) !important;
+    /* Semi-transparent white */
+    backdrop-filter: blur(10px) !important;
+    -webkit-backdrop-filter: blur(10px) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05) !important;
+    /* Softer shadow */
+    border-bottom: 1px solid rgba(0, 0, 0, 0.05) !important;
+}
+
+/* Dark mode navbar background */
+html.dark nav {
+    background-color: rgba(26, 32, 44, 0.8) !important;
+    /* Semi-transparent dark */
+    border-bottom-color: rgba(255, 255, 255, 0.05) !important;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3) !important;
+}
+
+/* Add padding to body to account for fixed navbar */
+body {
+    padding-top: 55px !important;
+    /* Match reduced navbar height */
+}
+
+/* Special handling for video player page */
+body.video-player-page {
+    padding-top: 55px !important;
+    /* Ensure proper spacing even with custom background */
+}
+
+/* Hide the spacer div as we're using body padding instead */
+.navbar-spacer {
+    display: none !important;
+    /* Prevent double spacing */
+}
+
+/* Ensure all main content containers start below navbar */
+main,
+header:not(nav header),
+section:first-of-type,
+.hero-section,
+#heroCarousel,
+.container:first-child {
+    position: relative;
+    z-index: 1;
+    /* Below navbar */
+}
+
+/* Additional safeguard: ensure first elements don't overlap */
+body>main:first-of-type,
+body>header:first-of-type:not(nav),
+body>section:first-of-type,
+body>div.hero-section:first-of-type {
+    margin-top: 0 !important;
+}
+
+/* Video player specific adjustments */
+.video-player-container {
+    margin-top: 0;
+    padding-top: var(--vp-space-8, 32px);
+    /* Additional spacing for visual comfort */
+}
+
+/* Container responsive padding */
+.container {
+    position: relative;
+    margin: 0 auto;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    max-width: 1320px;
+    width: 100%;
+    z-index: 1;
+}
+
+/* Ensure hero sections and carousels account for navbar */
+.hero-section,
+#heroCarousel,
+.carousel {
+    margin-top: 0 !important;
+}
+
+/* Ensure headers that come after navbar don't overlap */
+header.bg-primary,
+header.bg-gradient-primary {
+    margin-top: 0 !important;
+    padding-top: calc(1.5rem + 0px);
+    /* Adjusted padding without extra offset */
+}
+
+/* Ensure dropdowns and modals appear above other content */
+.group:hover>div[style*="z-index: 1070"],
+#mobile-menu,
+.dropdown-menu,
+.modal {
+    z-index: var(--z-tooltip, 1070);
+}
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+
+    body,
+    body.video-player-page {
+        padding-top: 50px !important;
+        /* Slightly less padding on tablet */
+    }
+}
+
+@media (max-width: 640px) {
+
+    body,
+    body.video-player-page {
+        padding-top: 48px !important;
+        /* Reduced padding on mobile */
+    }
+
+    .container {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+
+    .video-player-container {
+        padding-top: var(--vp-space-6, 24px);
+        /* Less spacing on mobile */
+    }
+}
+
+/* Smooth scroll behavior with offset for fixed navbar */
+html {
+    scroll-behavior: smooth;
+    scroll-padding-top: 80px;
+    /* Offset for fixed navbar when scrolling to anchors */
+}
+
+/* Optional: Add enhanced shadow to navbar on scroll (requires JS to add 'scrolled' class) */
+nav.scrolled {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Ensure any absolutely positioned elements within body respect navbar */
+body>*:not(nav) {
+    position: relative;
+}
+
+/* Fix for Bootstrap carousel */
+.carousel-inner {
+    position: relative;
+}
+
+/* Ensure page content wrapper starts correctly */
+body>div:first-child:not(#navbar-container),
+body>main:first-child {
+    margin-top: 0 !important;
+}
+
+/* Override any negative margins that might cause overlap */
+* {
+    margin-top: 0 !important;
+}
+
+*:first-child {
+    margin-top: 0 !important;
+}
+
+/* Specific fix for common layout issues */
+.pt-0 {
+    padding-top: 0 !important;
+}
+
+.mt-0 {
+    margin-top: 0 !important;
+}
+
+/* ======================================
+   NAVBAR LINK COLOR CONSISTENCY
+   Ensures all navigation links have the same colors across all pages
+   ====================================== */
+
+/* Desktop Navigation Links - Consistent Colors */
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    color: var(--text-dark) !important;
+    font-weight: 500;
+    padding: 0.5rem 1rem;
+    border-radius: 9999px;
+    transition: all 0.3s ease-in-out !important;
+    position: relative;
+    z-index: 1;
+    border: none;
+    /* Removed border */
+}
+
+nav ul li a:hover {
+    color: var(--primary-color) !important;
+    background-color: var(--gray-100);
+    /* Solid hover background */
+}
+
+/* Active Navigation State */
+nav ul li a.active {
+    color: var(--primary-700) !important;
+    font-weight: 600;
+}
+
+nav ul li a.active::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--primary-300);
+    /* Stronger background */
+    border-radius: 9999px;
+    z-index: -1;
+    transform: scale(1);
+    transition: all 0.3s ease-in-out;
+}
+
+html.dark nav ul li a {
+    color: var(--gray-100) !important;
+}
+
+html.dark nav ul li a:hover {
+    background-color: var(--gray-700);
+}
+
+html.dark nav ul li a.active {
+    color: white !important;
+}
+
+html.dark nav ul li a.active::before {
+    background-color: var(--primary-700);
+}
+
+/* Auth Links (Login/Register) - Consistent Colors */
+nav #auth-links li a {
+    font-weight: 600;
+}
+
+nav #auth-links li a[href*="login"] {
+    color: var(--primary-color) !important;
+}
+
+nav #auth-links li a[href*="login"]:hover {
+    color: var(--primary-dark) !important;
+}
+
+nav #auth-links li a[href*="register"] {
+    background-image: linear-gradient(to right, var(--primary-400), var(--primary-600)) !important;
+    background-size: 200% auto;
+    color: white !important;
+    transition: all 0.4s ease-in-out !important;
+    border: none !important;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.1);
+}
+
+nav #auth-links li a[href*="register"]:hover {
+    background-position: right center;
+    /* change the direction of the change here */
+    color: white !important;
+    box-shadow: 0 4px 15px 0 rgba(0, 0, 0, 0.2);
+    transform: translateY(-2px);
+}
+
+/* User Profile Dropdown Links */
+nav #user-profile div a {
+    color: var(--text-dark) !important;
+}
+
+nav #user-profile div a:hover {
+    color: var(--primary-color) !important;
+}
+
+nav #user-profile div a[onclick*="logout"] {
+    color: var(--danger) !important;
+}
+
+nav #user-profile div a[onclick*="logout"]:hover {
+    background-color: var(--danger-light) !important;
+    color: var(--danger-dark) !important;
+}
+
+/* Mobile Menu Links - Consistent Colors */
+#mobile-menu ul li a {
+    color: var(--text-dark) !important;
+    font-weight: 500;
+}
+
+#mobile-menu ul li a:hover {
+    color: var(--primary-color) !important;
+    background-color: var(--gray-50) !important;
+}
+
+#mobile-menu ul li a[href*="login"] {
+    color: var(--primary-color) !important;
+    font-weight: 600;
+}
+
+#mobile-menu ul li a[href*="register"] {
+    background-color: var(--primary-color) !important;
+    color: white !important;
+    font-weight: 600;
+}
+
+#mobile-menu ul li a[href*="register"]:hover {
+    background-color: var(--primary-dark) !important;
+    color: white !important;
+}
+
+/* Active Navigation State */
+nav ul li a.active {
+    color: var(--primary-color) !important;
+    font-weight: 600;
+}
+
+/* Dark Mode Navigation Link Colors */
+html.dark nav ul li a {
+    color: var(--gray-100) !important;
+}
+
+html.dark nav ul li a:hover {
+    color: var(--primary-300) !important;
+}
+
+html.dark #mobile-menu ul li a {
+    color: var(--gray-100) !important;
+}
+
+html.dark #mobile-menu ul li a:hover {
+    color: var(--primary-300) !important;
+    background-color: var(--gray-700) !important;
+}

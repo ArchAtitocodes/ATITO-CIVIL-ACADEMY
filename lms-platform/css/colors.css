@@ -1,0 +1,225 @@
+/* ======================================
+   COLOR UTILITIES  
+   Consistent color classes using CSS variables
+   ====================================== */
+
+/* Text Color Utilities */
+.text-primary {
+    color: var(--primary-color) !important;
+}
+
+.text-secondary {
+    color: var(--secondary-color) !important;
+}
+
+.text-success {
+    color: var(--success) !important;
+}
+
+.text-danger {
+    color: var(--danger) !important;
+}
+
+.text-warning {
+    color: var(--warning) !important;
+}
+
+.text-info {
+    color: var(--info) !important;
+}
+
+.text-white {
+    color: #ffffff !important;
+}
+
+.text-dark {
+    color: var(--text-dark) !important;
+}
+
+.text-light {
+    color: var(--text-light) !important;
+}
+
+/* Gray Text Colors */
+.text-gray-50 {
+    color: var(--gray-50) !important;
+}
+
+.text-gray-100 {
+    color: var(--gray-100) !important;
+}
+
+.text-gray-200 {
+    color: var(--gray-200) !important;
+}
+
+.text-gray-300 {
+    color: var(--gray-300) !important;
+}
+
+.text-gray-400 {
+    color: var(--gray-400) !important;
+}
+
+.text-gray-500 {
+    color: var(--gray-500) !important;
+}
+
+.text-gray-600 {
+    color: var(--gray-600) !important;
+}
+
+.text-gray-700 {
+    color: var(--gray-700) !important;
+}
+
+.text-gray-800 {
+    color: var(--gray-800) !important;
+}
+
+.text-gray-900 {
+    color: var(--gray-900) !important;
+}
+
+/* Background Color Utilities */
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.bg-primary {
+    background-color: var(--primary-color) !important;
+}
+
+.bg-secondary {
+    background-color: var(--secondary-color) !important;
+}
+
+.bg-success {
+    background-color: var(--success) !important;
+}
+
+.bg-danger {
+    background-color: var(--danger) !important;
+}
+
+.bg-warning {
+    background-color: var(--warning) !important;
+}
+
+.bg-info {
+    background-color: var(--info) !important;
+}
+
+.bg-white {
+    background-color: var(--bg-white) !important;
+}
+
+.bg-dark {
+    background-color: var(--gray-900) !important;
+}
+
+.bg-light {
+    background-color: var(--bg-light) !important;
+}
+
+/* Gray Background Colors */
+.bg-gray-50 {
+    background-color: var(--gray-50) !important;
+}
+
+.bg-gray-100 {
+    background-color: var(--gray-100) !important;
+}
+
+.bg-gray-200 {
+    background-color: var(--gray-200) !important;
+}
+
+.bg-gray-300 {
+    background-color: var(--gray-300) !important;
+}
+
+.bg-gray-400 {
+    background-color: var(--gray-400) !important;
+}
+
+.bg-gray-500 {
+    background-color: var(--gray-500) !important;
+}
+
+.bg-gray-600 {
+    background-color: var(--gray-600) !important;
+}
+
+.bg-gray-700 {
+    background-color: var(--gray-700) !important;
+}
+
+.bg-gray-800 {
+    background-color: var(--gray-800) !important;
+}
+
+.bg-gray-900 {
+    background-color: var(--gray-900) !important;
+}
+
+/* Gradient Backgrounds */
+.bg-gradient-primary {
+    background: linear-gradient(135deg, var(--primary-500) 0%, var(--primary-700) 100%) !important;
+}
+
+.bg-gradient-secondary {
+    background: linear-gradient(135deg, var(--secondary-400) 0%, var(--secondary-600) 100%) !important;
+}
+
+/* Opacity Utilities for Text */
+.opacity-90 {
+    opacity: 0.9 !important;
+}
+
+.opacity-80 {
+    opacity: 0.8 !important;
+}
+
+.opacity-70 {
+    opacity: 0.7 !important;
+}
+
+.opacity-60 {
+    opacity: 0.6 !important;
+}
+
+/* Background Opacity */
+.bg-opacity-10 {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+}
+
+.bg-opacity-20 {
+    background-color: rgba(255, 255, 255, 0.2) !important;
+}
+
+/* New Gradients for Course Features */
+.bg-gradient-to-br.from-slate-50.to-blue-50 {
+    background: linear-gradient(to bottom right, var(--slate-50) 0%, var(--blue-50) 100%) !important;
+}
+.bg-gradient-to-br.from-blue-500.to-cyan-500 {
+    background: linear-gradient(to bottom right, var(--blue-500) 0%, var(--cyan-500) 100%) !important;
+}
+.bg-gradient-to-br.from-purple-500.to-pink-500 {
+    background: linear-gradient(to bottom right, var(--purple-500) 0%, var(--pink-500) 100%) !important;
+}
+.bg-gradient-to-br.from-orange-500.to-red-500 {
+    background: linear-gradient(to bottom right, var(--orange-500) 0%, var(--red-500) 100%) !important;
+}
+.bg-gradient-to-br.from-green-500.to-emerald-500 {
+    background: linear-gradient(to bottom right, var(--green-500) 0%, var(--emerald-500) 100%) !important;
+}
+.bg-gradient-to-br.from-indigo-500.to-blue-500 {
+    background: linear-gradient(to bottom right, var(--indigo-500) 0%, var(--blue-500) 100%) !important;
+}
+.bg-gradient-to-br.from-pink-500.to-rose-500 {
+    background: linear-gradient(to bottom right, var(--pink-500) 0%, var(--rose-500) 100%) !important;
+}
+.bg-gradient-to-r.from-blue-600.to-purple-600 {
+    background: linear-gradient(to right, var(--blue-600) 0%, var(--purple-600) 100%) !important;
+}

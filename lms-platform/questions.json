@@ -1,0 +1,5504 @@
+{
+  "Certification in Building Construction Technology": [
+    {
+      "module": "Introduction to Building Construction",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "What is the primary purpose of a building code?",
+          "options": [
+            "To increase construction costs",
+            "To ensure safety and health standards",
+            "To limit architectural creativity",
+            "To speed up construction"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "text": "Which phase comes first in a project lifecycle?",
+          "options": [
+            "Construction",
+            "Handover",
+            "Planning",
+            "Design"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q3",
+          "text": "Who is responsible for the overall design of a building?",
+          "options": [
+            "Contractor",
+            "Architect",
+            "Surveyor",
+            "Client"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q4",
+          "text": "Residential buildings are primarily designed for:",
+          "options": [
+            "Manufacturing",
+            "Living accommodation",
+            "Office work",
+            "Storage"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "text": "What does PPE stand for?",
+          "options": [
+            "Personal Protective Equipment",
+            "Project Planning Estimation",
+            "Public Property Enclosure",
+            "Private Project Execution"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q6",
+          "text": "A feasibility study is conducted to:",
+          "options": [
+            "Determine if a project is viable",
+            "Buy materials",
+            "Hire workers",
+            "Paint the building"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q7",
+          "text": "Zoning laws regulate:",
+          "options": [
+            "Land use and building height",
+            "Interior design",
+            "Furniture selection",
+            "Window cleaning"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q8",
+          "text": "A site plan shows:",
+          "options": [
+            "The building location on the plot",
+            "The interior furniture",
+            "The roof structure",
+            "The electrical wiring"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q9",
+          "text": "The client is the person who:",
+          "options": [
+            "Funds and commissions the project",
+            "Builds the project",
+            "Designs the project",
+            "Approves the project"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q10",
+          "text": "HVAC stands for:",
+          "options": [
+            "Heating, Ventilation, and Air Conditioning",
+            "High Voltage AC",
+            "Heavy Vehicle Air Control",
+            "Humidity Ventilation Air Cooling"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Construction Materials",
+      "questions": [
+        {
+          "id": "q6",
+          "text": "Which material is commonly used for reinforcing concrete?",
+          "options": [
+            "Aluminum",
+            "Copper",
+            "Steel",
+            "Plastic"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q7",
+          "text": "What is the main ingredient in concrete?",
+          "options": [
+            "Cement",
+            "Sand",
+            "Aggregates",
+            "All of the above"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": "q8",
+          "text": "Which test is used to measure the workability of fresh concrete?",
+          "options": [
+            "Tensile test",
+            "Slump test",
+            "Impact test",
+            "Hardness test"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "text": "What is a common use for timber in construction?",
+          "options": [
+            "Foundations",
+            "Roof trusses",
+            "Road surfacing",
+            "Reinforcement"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q10",
+          "text": "Which bond pattern is strongest for brick walls?",
+          "options": [
+            "Stack bond",
+            "Running bond",
+            "English bond",
+            "Basket weave"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q11",
+          "text": "Aggregates in concrete provide:",
+          "options": [
+            "Color",
+            "Volume and stability",
+            "Water",
+            "Heat"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q12",
+          "text": "Mortar is used to:",
+          "options": [
+            "Bond masonry units together",
+            "Make windows",
+            "Paint walls",
+            "Cover the roof"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q13",
+          "text": "Curing of concrete is done to:",
+          "options": [
+            "Maintain moisture for hydration",
+            "Dry it quickly",
+            "Clean it",
+            "Paint it"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q14",
+          "text": "A common type of glass used in windows is:",
+          "options": [
+            "Float glass",
+            "Steel glass",
+            "Wood glass",
+            "Concrete glass"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q15",
+          "text": "Bitumen is primarily used for:",
+          "options": [
+            "Road construction and waterproofing",
+            "Painting",
+            "Flooring",
+            "Windows"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Building Structural Systems",
+      "questions": [
+        {
+          "id": "q11",
+          "text": "Which foundation type is used for weak soils?",
+          "options": [
+            "Strip footing",
+            "Pad footing",
+            "Pile foundation",
+            "Raft foundation"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q12",
+          "text": "In a frame structure, loads are transferred through:",
+          "options": [
+            "Walls",
+            "Beams and Columns",
+            "Windows",
+            "Doors"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q13",
+          "text": "A one-way slab is supported on:",
+          "options": [
+            "Four sides",
+            "Two opposite sides",
+            "One side",
+            "Three sides"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q14",
+          "text": "Which roof type has four sloping sides?",
+          "options": [
+            "Gable",
+            "Hip",
+            "Flat",
+            "Shed"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q15",
+          "text": "What is the purpose of a lintel?",
+          "options": [
+            "To support the roof",
+            "To support load above an opening",
+            "To decorate the wall",
+            "To drain water"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q16",
+          "text": "A load-bearing wall supports:",
+          "options": [
+            "Only its own weight",
+            "Vertical loads from above",
+            "Curtains",
+            "Paint"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q17",
+          "text": "A truss is a structural framework composed of:",
+          "options": [
+            "Triangles",
+            "Circles",
+            "Squares",
+            "Random shapes"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q18",
+          "text": "DPC stands for:",
+          "options": [
+            "Damp Proof Course",
+            "Dry Proof Course",
+            "Damp Prevention Course",
+            "Direct Proof Course"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q19",
+          "text": "A Parapet wall is located:",
+          "options": [
+            "At the edge of a roof or balcony",
+            "In the basement",
+            "Under the ground",
+            "Inside the room"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q20",
+          "text": "Stirrups in beams are used to resist:",
+          "options": [
+            "Shear forces",
+            "Bending moments",
+            "Compression",
+            "Tension"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Site Engineering & Management",
+      "questions": [
+        {
+          "id": "q16",
+          "text": "What is the first step in site establishment?",
+          "options": [
+            "Fencing the site",
+            "Pouring concrete",
+            "Painting walls",
+            "Installing windows"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q17",
+          "text": "Which instrument is used for measuring angles?",
+          "options": [
+            "Level",
+            "Theodolite",
+            "Tape measure",
+            "Plumb bob"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q18",
+          "text": "Why is material storage important?",
+          "options": [
+            "To look good",
+            "To prevent damage and theft",
+            "To increase costs",
+            "To slow down work"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q19",
+          "text": "What is a hazard?",
+          "options": [
+            "An accident",
+            "Something with potential to cause harm",
+            "A safety rule",
+            "A type of tool"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q20",
+          "text": "Quality control ensures:",
+          "options": [
+            "Work meets specifications",
+            "Work is done fast",
+            "Work is cheap",
+            "Work is easy"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q21",
+          "text": "Site logistics planning involves:",
+          "options": [
+            "Organizing the movement of people, materials, and equipment",
+            "Planning a party",
+            "Designing the building",
+            "Selling the land"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q22",
+          "text": "A method statement describes:",
+          "options": [
+            "How a specific task will be carried out safely",
+            "The cost of the project",
+            "The weather forecast",
+            "The lunch menu"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q23",
+          "text": "Excavation safety requires:",
+          "options": [
+            "Shoring or battering of trench sides",
+            "Running fast",
+            "Working alone",
+            "No equipment"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q24",
+          "text": "A site diary records:",
+          "options": [
+            "Daily activities, weather, and incidents",
+            "Personal secrets",
+            "Jokes",
+            "Songs"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q25",
+          "text": "First Aid facilities on site are:",
+          "options": [
+            "Mandatory",
+            "Optional",
+            "Only for managers",
+            "Not needed"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Reading Construction Drawings",
+      "questions": [
+        {
+          "id": "q21",
+          "text": "What does a floor plan show?",
+          "options": [
+            "The roof structure",
+            "The layout of rooms from above",
+            "The side view of the building",
+            "The foundation details"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q22",
+          "text": "An elevation drawing shows:",
+          "options": [
+            "The interior layout",
+            "The exterior view of a building face",
+            "The foundation plan",
+            "The electrical wiring"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q23",
+          "text": "Structural drawings primarily detail:",
+          "options": [
+            "Furniture layout",
+            "Load-bearing elements",
+            "Paint colors",
+            "Landscaping"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q24",
+          "text": "A door schedule lists:",
+          "options": [
+            "Times for opening doors",
+            "Types, sizes, and locations of doors",
+            "Door prices",
+            "Door manufacturers"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q25",
+          "text": "Scale 1:100 means:",
+          "options": [
+            "1 unit on drawing = 100 units in reality",
+            "100 units on drawing = 1 unit in reality",
+            "Drawing is same size as reality",
+            "Drawing is larger than reality"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q26",
+          "text": "A Section drawing shows:",
+          "options": [
+            "A vertical slice through the building",
+            "The roof from above",
+            "The front view",
+            "The site plan"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q27",
+          "text": "Hatching on a drawing usually indicates:",
+          "options": [
+            "Material type",
+            "Shadows",
+            "Dirt",
+            "Nothing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q28",
+          "text": "Grid lines are used for:",
+          "options": [
+            "Referencing and locating building elements",
+            "Decoration",
+            "Playing games",
+            "Nothing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q29",
+          "text": "A revision cloud indicates:",
+          "options": [
+            "A change made to the drawing",
+            "A cloud in the sky",
+            "A mistake",
+            "A deleted item"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q30",
+          "text": "As-built drawings are prepared:",
+          "options": [
+            "After construction is complete",
+            "Before construction starts",
+            "During design",
+            "Never"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Estimating & Costing",
+      "questions": [
+        {
+          "id": "q26",
+          "text": "What is a Bill of Quantities (BOQ)?",
+          "options": [
+            "A list of tools",
+            "A document listing material quantities and descriptions",
+            "A receipt for purchase",
+            "A safety manual"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q27",
+          "text": "Quantity take-off involves:",
+          "options": [
+            "Stealing materials",
+            "Measuring quantities from drawings",
+            "Counting workers",
+            "Estimating time"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q28",
+          "text": "Direct costs include:",
+          "options": [
+            "Office rent",
+            "Materials and Labor",
+            "Insurance",
+            "Marketing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q29",
+          "text": "A contingency sum is for:",
+          "options": [
+            "Profit",
+            "Unforeseen costs",
+            "Taxes",
+            "Bonuses"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q30",
+          "text": "Unit rate analysis calculates:",
+          "options": [
+            "Total project cost",
+            "Cost per unit of work",
+            "Worker salary",
+            "Material weight"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q31",
+          "text": "Overhead costs are:",
+          "options": [
+            "Indirect costs of running the business",
+            "Material costs",
+            "Labor costs",
+            "Profit"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q32",
+          "text": "A tender is:",
+          "options": [
+            "An offer to do work for a certain price",
+            "A type of boat",
+            "A soft material",
+            "A payment"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q33",
+          "text": "Labor constants are used to:",
+          "options": [
+            "Estimate the time required for a task",
+            "Calculate material waste",
+            "Measure distance",
+            "Count bricks"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q34",
+          "text": "Material wastage must be:",
+          "options": [
+            "Allowed for in estimates",
+            "Ignored",
+            "Forbidden",
+            "Sold"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q35",
+          "text": "A preliminary estimate is:",
+          "options": [
+            "An approximate cost calculation early in the project",
+            "The final bill",
+            "A guess",
+            "A receipt"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Sustainable & Green Building Practices",
+      "questions": [
+        {
+          "id": "q31",
+          "text": "What is the goal of Green Building?",
+          "options": [
+            "To use green paint",
+            "To minimize environmental impact",
+            "To build in forests",
+            "To use only wood"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q32",
+          "text": "LEED stands for:",
+          "options": [
+            "Leadership in Energy and Environmental Design",
+            "Low Energy Efficient Design",
+            "Long Environmental Energy Development",
+            "Legal Energy Enforcement Department"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q33",
+          "text": "Which is a sustainable material?",
+          "options": [
+            "Asbestos",
+            "Bamboo",
+            "Lead",
+            "Plastic"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q34",
+          "text": "Rainwater harvesting is a method of:",
+          "options": [
+            "Energy conservation",
+            "Water conservation",
+            "Waste management",
+            "Air purification"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q35",
+          "text": "Energy efficiency can be improved by:",
+          "options": [
+            "Leaving lights on",
+            "Using insulation",
+            "Opening windows in winter",
+            "Using old appliances"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q36",
+          "text": "Greywater is:",
+          "options": [
+            "Wastewater from sinks and showers",
+            "Sewage",
+            "Drinking water",
+            "Rainwater"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q37",
+          "text": "Solar panels generate electricity from:",
+          "options": [
+            "Sunlight",
+            "Wind",
+            "Water",
+            "Coal"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q38",
+          "text": "Passive design uses:",
+          "options": [
+            "Natural elements like sun and wind for heating/cooling",
+            "Machines",
+            "Electricity",
+            "Gas"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q39",
+          "text": "Recycled concrete can be used as:",
+          "options": [
+            "Aggregate",
+            "Cement",
+            "Steel",
+            "Glass"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q40",
+          "text": "A green roof helps to:",
+          "options": [
+            "Reduce heat island effect and manage stormwater",
+            "Increase weight only",
+            "Look ugly",
+            "Leak water"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Digital Construction & Smart Technologies",
+      "questions": [
+        {
+          "id": "q36",
+          "text": "BIM stands for:",
+          "options": [
+            "Building Information Modeling",
+            "Basic Internet Management",
+            "Building Internal Maintenance",
+            "Business Information Method"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q37",
+          "text": "Drones are used in construction for:",
+          "options": [
+            "Transporting bricks",
+            "Site surveying and inspection",
+            "Mixing concrete",
+            "Painting"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q38",
+          "text": "IoT in smart buildings refers to:",
+          "options": [
+            "Internet of Things",
+            "Internal Office Technology",
+            "Input Output Transfer",
+            "International Online Trade"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q39",
+          "text": "Mobile apps help site managers by:",
+          "options": [
+            "Playing games",
+            "Real-time reporting and communication",
+            "Watching movies",
+            "Ordering pizza"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q40",
+          "text": "Digital construction aims to:",
+          "options": [
+            "Replace all humans",
+            "Improve efficiency and accuracy",
+            "Make construction slower",
+            "Increase paper usage"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q41",
+          "text": "3D printing in construction can be used to:",
+          "options": [
+            "Print entire houses or components",
+            "Print paper",
+            "Print money",
+            "Print food"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q42",
+          "text": "VR (Virtual Reality) allows clients to:",
+          "options": [
+            "Walk through a digital model of the building",
+            "Sleep",
+            "Eat",
+            "Drive"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q43",
+          "text": "AR (Augmented Reality) overlays:",
+          "options": [
+            "Digital information onto the real world view",
+            "Paint on walls",
+            "Concrete on steel",
+            "Water on fire"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q44",
+          "text": "Cloud computing allows for:",
+          "options": [
+            "Remote access and collaboration on project data",
+            "Rain",
+            "Fog",
+            "Thunder"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q45",
+          "text": "Smart sensors can monitor:",
+          "options": [
+            "Temperature, occupancy, and energy use",
+            "Thoughts",
+            "Dreams",
+            "Nothing"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    }
+  ],
+  "Certification in AutoCAD (2D & 3D)": [
+    {
+      "module": "Getting Started",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "What is the primary file extension for AutoCAD drawings?",
+          "options": [
+            ".doc",
+            ".dwg",
+            ".pdf",
+            ".xls"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "text": "Which key is used to cancel a command?",
+          "options": [
+            "Enter",
+            "Space",
+            "Esc",
+            "Shift"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q3",
+          "text": "Model Space is primarily used for:",
+          "options": [
+            "Printing",
+            "Drawing and modeling",
+            "Writing text",
+            "Creating layouts"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q4",
+          "text": "The Ribbon contains:",
+          "options": [
+            "Only text commands",
+            "Toolbars and panels",
+            "Only layer settings",
+            "File properties"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "text": "To zoom in, you can:",
+          "options": [
+            "Scroll the mouse wheel",
+            "Press Ctrl+Z",
+            "Press Alt+F4",
+            "Click the right mouse button"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q6",
+          "text": "The Command Line is used to:",
+          "options": [
+            "Type commands and see prompts",
+            "Draw lines",
+            "Change colors",
+            "Print"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q7",
+          "text": "Which function key toggles Ortho mode?",
+          "options": [
+            "F1",
+            "F8",
+            "F3",
+            "F10"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "text": "Which function key toggles Object Snap (OSNAP)?",
+          "options": [
+            "F1",
+            "F3",
+            "F8",
+            "F12"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "text": "The UCS icon represents:",
+          "options": [
+            "User Coordinate System",
+            "Universal Computer System",
+            "United Color Standard",
+            "Under Construction Site"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q10",
+          "text": "To pan the drawing, you can:",
+          "options": [
+            "Hold the middle mouse button and drag",
+            "Press Enter",
+            "Press Esc",
+            "Click right mouse button"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Basic Drafting Commands",
+      "questions": [
+        {
+          "id": "q6",
+          "text": "Which command creates a continuous line with multiple segments?",
+          "options": [
+            "Line",
+            "Polyline",
+            "Ray",
+            "Xline"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q7",
+          "text": "Object Snap (OSNAP) allows you to:",
+          "options": [
+            "Snap to grid points",
+            "Snap to specific geometric points on objects",
+            "Snap to the screen center",
+            "Snap to the cursor"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "text": "The Trim command is used to:",
+          "options": [
+            "Erase objects",
+            "Shorten objects to a cutting edge",
+            "Extend objects",
+            "Copy objects"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "text": "Offset creates:",
+          "options": [
+            "A parallel copy of an object",
+            "A mirror image",
+            "A rotated copy",
+            "A scaled copy"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q10",
+          "text": "Which command creates rounded corners?",
+          "options": [
+            "Chamfer",
+            "Fillet",
+            "Blend",
+            "Smooth"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q11",
+          "text": "To create a mirror image of an object, use:",
+          "options": [
+            "Copy",
+            "Mirror",
+            "Rotate",
+            "Scale"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q12",
+          "text": "The Array command creates:",
+          "options": [
+            "Multiple copies in a pattern",
+            "One copy",
+            "A block",
+            "A layer"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q13",
+          "text": "The Scale command:",
+          "options": [
+            "Changes the size of an object",
+            "Moves an object",
+            "Rotates an object",
+            "Deletes an object"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q14",
+          "text": "To rotate an object, you need a:",
+          "options": [
+            "Base point and rotation angle",
+            "Color",
+            "Layer",
+            "Line"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q15",
+          "text": "The Explode command:",
+          "options": [
+            "Breaks a compound object into its component parts",
+            "Deletes the drawing",
+            "Saves the file",
+            "Makes a block"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Layers & Properties",
+      "questions": [
+        {
+          "id": "q11",
+          "text": "Why are layers used in AutoCAD?",
+          "options": [
+            "To make the file larger",
+            "To organize and control object visibility",
+            "To change the background color",
+            "To print faster"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q12",
+          "text": "Which layer property controls printing?",
+          "options": [
+            "Color",
+            "Plot",
+            "Lock",
+            "Freeze"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q13",
+          "text": "Freezing a layer:",
+          "options": [
+            "Makes it invisible and unloads it from memory",
+            "Just makes it invisible",
+            "Locks it",
+            "Deletes it"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q14",
+          "text": "Layer 0 is:",
+          "options": [
+            "A user-created layer",
+            "The default system layer",
+            "A layer for dimensions",
+            "A layer for text"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q15",
+          "text": "ByLayer means:",
+          "options": [
+            "The object takes properties from its layer",
+            "The object has a specific color",
+            "The object is on Layer 0",
+            "The object is hidden"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q16",
+          "text": "Locking a layer prevents:",
+          "options": [
+            "Viewing",
+            "Editing",
+            "Printing",
+            "Saving"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q17",
+          "text": "Linetype scale (LTSCALE) controls:",
+          "options": [
+            "The size of dashes and spaces in non-continuous lines",
+            "The thickness of lines",
+            "The color of lines",
+            "The length of lines"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q18",
+          "text": "To make a layer current, you:",
+          "options": [
+            "Click the green checkmark in Layer Properties",
+            "Delete it",
+            "Rename it",
+            "Turn it off"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q19",
+          "text": "Layer states allow you to:",
+          "options": [
+            "Save and restore layer settings",
+            "Delete layers",
+            "Create new layers",
+            "Draw lines"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q20",
+          "text": "If an object is on a turned-off layer:",
+          "options": [
+            "It is not visible but regenerates",
+            "It is visible",
+            "It is deleted",
+            "It is printed"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Dimensioning & Text",
+      "questions": [
+        {
+          "id": "q16",
+          "text": "MText stands for:",
+          "options": [
+            "Multi-line Text",
+            "Mono Text",
+            "Macro Text",
+            "Mini Text"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q17",
+          "text": "Annotative objects automatically:",
+          "options": [
+            "Change color",
+            "Scale based on viewport scale",
+            "Disappear",
+            "Rotate"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q18",
+          "text": "Which dimension type measures the distance between two points?",
+          "options": [
+            "Angular",
+            "Linear/Aligned",
+            "Radial",
+            "Diameter"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q19",
+          "text": "A Dimension Style controls:",
+          "options": [
+            "The layer of the dimension",
+            "The appearance of dimensions",
+            "The length of the line",
+            "The text content"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q20",
+          "text": "To edit text, you usually:",
+          "options": [
+            "Single click",
+            "Double click",
+            "Right click",
+            "Press Delete"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q21",
+          "text": "A Leader is used to:",
+          "options": [
+            "Create a line with an arrow and text",
+            "Lead the team",
+            "Draw a circle",
+            "Measure angle"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q22",
+          "text": "The text height is determined by:",
+          "options": [
+            "The layer",
+            "The text style or properties",
+            "The zoom level",
+            "The screen size"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q23",
+          "text": "Which command checks spelling?",
+          "options": [
+            "Spell",
+            "Check",
+            "Text",
+            "Word"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q24",
+          "text": "To add a symbol (like diameter) in text:",
+          "options": [
+            "Use the symbol menu or code (e.g., %%c)",
+            "Draw it manually",
+            "Type \"diameter\"",
+            "It is impossible"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q25",
+          "text": "Center Mark is used for:",
+          "options": [
+            "Marking the center of a circle or arc",
+            "Marking the center of the screen",
+            "Marking the center of a line",
+            "Nothing"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Blocks & Templates",
+      "questions": [
+        {
+          "id": "q21",
+          "text": "A Block is:",
+          "options": [
+            "A square object",
+            "A group of objects acting as a single object",
+            "A layer",
+            "A command"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q22",
+          "text": "Dynamic Blocks can:",
+          "options": [
+            "Move on their own",
+            "Change shape and size based on parameters",
+            "Be deleted automatically",
+            "Change color randomly"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q23",
+          "text": "Xref stands for:",
+          "options": [
+            "Extra Reference",
+            "External Reference",
+            "Exact Reference",
+            "Example Reference"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q24",
+          "text": "A .dwt file is a:",
+          "options": [
+            "Drawing Template",
+            "Drawing Text",
+            "Drawing Tool",
+            "Drawing Table"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q25",
+          "text": "WBlock command is used to:",
+          "options": [
+            "Write a block to a separate file",
+            "Delete a block",
+            "Explode a block",
+            "Rename a block"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q26",
+          "text": "Attributes in blocks are used for:",
+          "options": [
+            "Storing data like text",
+            "Making blocks colorful",
+            "Hiding blocks",
+            "Moving blocks"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q27",
+          "text": "The Insert command is used to:",
+          "options": [
+            "Place a block or drawing into the current drawing",
+            "Delete an object",
+            "Save the file",
+            "Print"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q28",
+          "text": "If you edit a block definition:",
+          "options": [
+            "All instances of that block in the drawing update",
+            "Only the edited one updates",
+            "Nothing happens",
+            "The block is deleted"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q29",
+          "text": "Design Center allows you to:",
+          "options": [
+            "Drag and drop blocks, layers, etc. from other drawings",
+            "Design a house",
+            "Center the screen",
+            "Change colors"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q30",
+          "text": "A Title Block usually contains:",
+          "options": [
+            "Project name, drawing number, scale, date",
+            "A story",
+            "Random text",
+            "Nothing"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "3D Modeling",
+      "questions": [
+        {
+          "id": "q26",
+          "text": "Which axis represents height in 3D?",
+          "options": [
+            "X",
+            "Y",
+            "Z",
+            "W"
+          ],
+          "correctAnswer": 2
+        },
+        {
+          "id": "q27",
+          "text": "Extrude command converts:",
+          "options": [
+            "3D to 2D",
+            "2D shapes into 3D solids",
+            "Lines to circles",
+            "Solids to surfaces"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q28",
+          "text": "Union command:",
+          "options": [
+            "Separates solids",
+            "Combines multiple solids into one",
+            "Deletes solids",
+            "Hides solids"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q29",
+          "text": "Subtract command:",
+          "options": [
+            "Adds volume",
+            "Removes the volume of one solid from another",
+            "Moves solids",
+            "Copies solids"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q30",
+          "text": "Visual Styles control:",
+          "options": [
+            "The display of the model (e.g., Wireframe, Realistic)",
+            "The file size",
+            "The layer settings",
+            "The print settings"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q31",
+          "text": "Revolve command creates a solid by:",
+          "options": [
+            "Rotating a 2D profile around an axis",
+            "Pushing a face",
+            "Drawing a circle",
+            "Cutting a hole"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q32",
+          "text": "Presspull allows you to:",
+          "options": [
+            "Extrude or offset faces dynamically",
+            "Press a button",
+            "Pull a line",
+            "Delete a face"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q33",
+          "text": "A 3D Orbit tool is used to:",
+          "options": [
+            "Rotate the view around the model",
+            "Rotate the model itself",
+            "Move the model",
+            "Scale the model"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q34",
+          "text": "Materials can be applied to:",
+          "options": [
+            "3D solids and surfaces",
+            "2D lines",
+            "Text",
+            "Dimensions"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q35",
+          "text": "Rendering produces:",
+          "options": [
+            "A photorealistic image of the model",
+            "A wireframe",
+            "A sketch",
+            "A blueprint"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Advanced Documentation & Sheet Sets",
+      "questions": [
+        {
+          "id": "q31",
+          "text": "Sheet Set Manager is used for:",
+          "options": [
+            "Managing a single drawing",
+            "Organizing and managing multiple drawing sheets",
+            "Drawing lines",
+            "Creating blocks"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q32",
+          "text": "Batch Plot allows you to:",
+          "options": [
+            "Plot one sheet at a time",
+            "Plot multiple sheets automatically",
+            "Draw faster",
+            "Save files"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q33",
+          "text": "A Callout is:",
+          "options": [
+            "A phone call",
+            "A reference to a detail or section view",
+            "A text note",
+            "A dimension"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q34",
+          "text": "Fields in AutoCAD are:",
+          "options": [
+            "Grass areas",
+            "Text that updates automatically",
+            "Empty spaces",
+            "Layers"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q35",
+          "text": "Page Setup Manager controls:",
+          "options": [
+            "Plot settings for layouts",
+            "Layer colors",
+            "Line types",
+            "Text styles"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Customization & Efficiency",
+      "questions": [
+        {
+          "id": "q36",
+          "text": "AutoLISP is:",
+          "options": [
+            "A drawing tool",
+            "A programming language for AutoCAD",
+            "A layer",
+            "A text style"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q37",
+          "text": "Design Center allows you to:",
+          "options": [
+            "Draw centers",
+            "Drag and drop content between drawings",
+            "Design buildings",
+            "Calculate costs"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q38",
+          "text": "Data Extraction is used to:",
+          "options": [
+            "Delete data",
+            "Export drawing information to tables or Excel",
+            "Import images",
+            "Save files"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q39",
+          "text": "A .pat file contains:",
+          "options": [
+            "Hatch patterns",
+            "Linetypes",
+            "Text",
+            "Layers"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q40",
+          "text": "Tool Palettes provide quick access to:",
+          "options": [
+            "Blocks and commands",
+            "File menu",
+            "Help",
+            "Settings"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    }
+  ],
+  "Certification in Revit Architecture": [
+    {
+      "module": "Revit Interface & Navigation",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "Revit is primarily a:",
+          "options": [
+            "2D Drafting Tool",
+            "BIM Software",
+            "Photo Editor",
+            "Spreadsheet"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "text": "The Project Browser shows:",
+          "options": [
+            "A list of all views, families, and sheets",
+            "The internet",
+            "Only 3D views",
+            "Tool settings"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q3",
+          "text": "Properties Palette is used to:",
+          "options": [
+            "Draw lines",
+            "Modify parameters of selected elements",
+            "Save the file",
+            "Close the program"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q4",
+          "text": "Which file extension is a Revit Project?",
+          "options": [
+            ".rvt",
+            ".rfa",
+            ".rte",
+            ".dwg"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q5",
+          "text": "Zoom All shortcut is:",
+          "options": [
+            "ZA",
+            "ZO",
+            "ZM",
+            "ZZ"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q6",
+          "text": "The Quick Access Toolbar contains:",
+          "options": [
+            "Commonly used commands like Open, Save, Undo",
+            "All commands",
+            "Only text tools",
+            "Nothing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q7",
+          "text": "A View Cube is used for:",
+          "options": [
+            "Navigating in 3D views",
+            "Drawing cubes",
+            "Measuring",
+            "Selecting colors"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q8",
+          "text": "To hide an element temporarily, use:",
+          "options": [
+            "Sunglasses icon (Temporary Hide/Isolate)",
+            "Delete key",
+            "Eraser",
+            "Paint"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q9",
+          "text": "A Revit Template (.rte) is used to:",
+          "options": [
+            "Start a new project with predefined settings",
+            "Save a backup",
+            "Export to CAD",
+            "Print"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q10",
+          "text": "The Status Bar is located:",
+          "options": [
+            "At the bottom of the screen",
+            "At the top",
+            "On the right",
+            "On the left"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Project Setup, Levels & Grids",
+      "questions": [
+        {
+          "id": "q6",
+          "text": "Levels define:",
+          "options": [
+            "The width of the building",
+            "Vertical heights (stories) in the building",
+            "The color of walls",
+            "The grid lines"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q7",
+          "text": "Grids are best seen in:",
+          "options": [
+            "Floor Plans",
+            "3D Views only",
+            "Schedules",
+            "Renderings"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q8",
+          "text": "A Template file (.rte) is used to:",
+          "options": [
+            "Start a new project with predefined settings",
+            "Save a family",
+            "Export to AutoCAD",
+            "Render an image"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q9",
+          "text": "Levels are created in:",
+          "options": [
+            "Plan Views",
+            "Elevation or Section Views",
+            "3D Views",
+            "Drafting Views"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q10",
+          "text": "Reference Planes are used for:",
+          "options": [
+            "Printing",
+            "Guiding geometry creation",
+            "Making floors",
+            "Adding text"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q11",
+          "text": "To create a new Level, use the shortcut:",
+          "options": [
+            "LL",
+            "LV",
+            "LE",
+            "LS"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q12",
+          "text": "When a Level is deleted:",
+          "options": [
+            "Associated views are also deleted",
+            "Nothing happens",
+            "Only the line deletes",
+            "The project closes"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q13",
+          "text": "A Level Head indicates:",
+          "options": [
+            "The name and elevation of the level",
+            "The grid number",
+            "The wall type",
+            "The room name"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q14",
+          "text": "Can Grids be non-linear (curved)?",
+          "options": [
+            "Yes, using the Multi-Segment Grid tool",
+            "No",
+            "Only in 3D",
+            "Only in elevation"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q15",
+          "text": "To propagate extents of grids means to:",
+          "options": [
+            "Apply 2D extent changes to other parallel views",
+            "Delete grids",
+            "Move grids",
+            "Color grids"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Wall, Door & Window Families",
+      "questions": [
+        {
+          "id": "q11",
+          "text": "A Wall is a:",
+          "options": [
+            "System Family",
+            "Loadable Family",
+            "In-Place Family",
+            "Annotation"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q12",
+          "text": "Doors are hosted by:",
+          "options": [
+            "Floors",
+            "Walls",
+            "Ceilings",
+            "Roofs"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q13",
+          "text": "To flip a door swing, you can:",
+          "options": [
+            "Delete and redraw",
+            "Use the flip arrows",
+            "Rotate the view",
+            "Change the wall type"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q14",
+          "text": "Curtain Walls are made of:",
+          "options": [
+            "Bricks",
+            "Grids, Mullions, and Panels",
+            "Concrete",
+            "Wood"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q15",
+          "text": "Wall Location Line determines:",
+          "options": [
+            "The height of the wall",
+            "How the wall is positioned relative to the sketch line",
+            "The color of the wall",
+            "The material"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q16",
+          "text": "To trim/extend walls to a corner, use shortcut:",
+          "options": [
+            "TR",
+            "TE",
+            "TC",
+            "TW"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q17",
+          "text": "To attach a wall to a roof:",
+          "options": [
+            "Select wall > Attach Top/Base > Select roof",
+            "Move wall up",
+            "Scale wall",
+            "Rotate wall"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q18",
+          "text": "A Wall Sweep is:",
+          "options": [
+            "A decorative horizontal or vertical projection",
+            "A cleaning tool",
+            "A hole",
+            "A paint"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q19",
+          "text": "A Wall Reveal is:",
+          "options": [
+            "A decorative cutout or groove in the wall",
+            "A light",
+            "A window",
+            "A door"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q20",
+          "text": "Stacked Walls allow:",
+          "options": [
+            "Different wall types stacked vertically",
+            "Walls side by side",
+            "Curved walls",
+            "Invisible walls"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Floors, Roofs & Ceilings",
+      "questions": [
+        {
+          "id": "q16",
+          "text": "Floors are created by:",
+          "options": [
+            "Extrusion",
+            "Sketching a boundary",
+            "Placing a component",
+            "Drawing a line"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q17",
+          "text": "Roof by Footprint is best for:",
+          "options": [
+            "Flat or simple sloped roofs",
+            "Complex curved roofs",
+            "Walls",
+            "Foundations"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q18",
+          "text": "To create a slope in a floor, you can use:",
+          "options": [
+            "Slope Arrow",
+            "Rotate tool",
+            "Move tool",
+            "Scale tool"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q19",
+          "text": "Ceilings are usually placed in:",
+          "options": [
+            "Floor Plans",
+            "Reflected Ceiling Plans",
+            "Elevations",
+            "Site Plans"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q20",
+          "text": "A Roof Overhang is set in:",
+          "options": [
+            "The Options Bar while sketching",
+            "The Material Browser",
+            "The View settings",
+            "The Print dialog"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q21",
+          "text": "To define a slope in a roof sketch:",
+          "options": [
+            "Select boundary line and check \"Defines Slope\"",
+            "Draw an arrow",
+            "Write text",
+            "Change color"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q22",
+          "text": "Roof by Extrusion requires:",
+          "options": [
+            "A work plane and an open profile sketch",
+            "A closed loop",
+            "A floor plan",
+            "A level"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q23",
+          "text": "A Floor Slab Edge is:",
+          "options": [
+            "A profile swept along the edge of a floor",
+            "A cut",
+            "A hole",
+            "A line"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q24",
+          "text": "To create a hole in a floor:",
+          "options": [
+            "Sketch a closed loop inside the boundary",
+            "Delete the floor",
+            "Move the floor",
+            "Hide the floor"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q25",
+          "text": "A Dormer Opening is used for:",
+          "options": [
+            "Cutting a roof for a dormer window",
+            "Cutting a floor",
+            "Cutting a wall",
+            "Cutting a door"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Creating and Managing Views",
+      "questions": [
+        {
+          "id": "q21",
+          "text": "A Section View cuts through:",
+          "options": [
+            "The model vertically",
+            "The model horizontally",
+            "Only the roof",
+            "Only the site"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q22",
+          "text": "To create a Camera view:",
+          "options": [
+            "Use the Camera tool in 3D Views",
+            "Draw a box",
+            "Use the Section tool",
+            "Use the Level tool"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q23",
+          "text": "View Templates allow you to:",
+          "options": [
+            "Draw faster",
+            "Apply standard view settings to multiple views",
+            "Create families",
+            "Render images"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q24",
+          "text": "Visibility/Graphics Overrides (VG) controls:",
+          "options": [
+            "File saving",
+            "Visibility of elements in a specific view",
+            "Project units",
+            "Material properties"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q25",
+          "text": "A Callout view is:",
+          "options": [
+            "A detailed view of a part of a parent view",
+            "A phone call",
+            "A 3D view",
+            "A schedule"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q26",
+          "text": "To hide an element permanently in a view:",
+          "options": [
+            "Right-click > Hide in View > Elements",
+            "Delete it",
+            "Move it",
+            "Scale it"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q27",
+          "text": "A Crop Region defines:",
+          "options": [
+            "The visible area of the view",
+            "The paper size",
+            "The file size",
+            "The date"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q28",
+          "text": "Far Clip Offset controls:",
+          "options": [
+            "The depth of the view",
+            "The width of the view",
+            "The height of the view",
+            "The color"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q29",
+          "text": "To create a 3D perspective view, you need:",
+          "options": [
+            "A Camera",
+            "A Section",
+            "A Level",
+            "A Grid"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q30",
+          "text": "View Filters are used to:",
+          "options": [
+            "Override graphics based on rules",
+            "Delete elements",
+            "Create elements",
+            "Save views"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Sheets, Annotations & Documentation",
+      "questions": [
+        {
+          "id": "q26",
+          "text": "To place a view on a sheet:",
+          "options": [
+            "Copy and paste",
+            "Drag and drop from Project Browser",
+            "Draw it again",
+            "Use the Import command"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q27",
+          "text": "A Tag displays:",
+          "options": [
+            "Random text",
+            "Information from the element's parameters",
+            "The date",
+            "The file name"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q28",
+          "text": "Dimensions in Revit are:",
+          "options": [
+            "Static",
+            "Parametric (can drive geometry)",
+            "Just drawings",
+            "Invisible"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q29",
+          "text": "Detail Components are:",
+          "options": [
+            "3D elements",
+            "2D elements used for detailing",
+            "Walls",
+            "Floors"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q30",
+          "text": "Title Blocks are:",
+          "options": [
+            "Families",
+            "System settings",
+            "Views",
+            "Schedules"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q31",
+          "text": "A Revision Cloud is used to:",
+          "options": [
+            "Mark changes on a drawing",
+            "Draw clouds",
+            "Hide elements",
+            "Delete elements"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q32",
+          "text": "Keynotes are used for:",
+          "options": [
+            "Standardized specification notes",
+            "Writing letters",
+            "Drawing lines",
+            "Making music"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q33",
+          "text": "A Legend View is used for:",
+          "options": [
+            "Showing symbols and keys",
+            "Showing 3D models",
+            "Showing schedules",
+            "Showing sections"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q34",
+          "text": "To align text:",
+          "options": [
+            "Use the alignment tools in the ribbon",
+            "Move it manually",
+            "Delete it",
+            "Scale it"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q35",
+          "text": "Can you place the same view on multiple sheets?",
+          "options": [
+            "No, generally not (except legends)",
+            "Yes, always",
+            "Only 3D views",
+            "Only sections"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Schedules & Quantities",
+      "questions": [
+        {
+          "id": "q31",
+          "text": "A Schedule in Revit is:",
+          "options": [
+            "A spreadsheet manually typed",
+            "A view of the project database",
+            "A drawing",
+            "A picture"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q32",
+          "text": "Material Takeoffs calculate:",
+          "options": [
+            "The weight of the building",
+            "The volume and area of materials used",
+            "The cost of labor",
+            "The time to build"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q33",
+          "text": "To filter a schedule, you use:",
+          "options": [
+            "The Filter tab in Schedule Properties",
+            "The Delete key",
+            "The Hide command",
+            "The Paint tool"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q34",
+          "text": "Room Schedules require:",
+          "options": [
+            "Walls to be room-bounding",
+            "Furniture",
+            "Windows",
+            "Ceilings"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q35",
+          "text": "Can you edit element parameters directly in a schedule?",
+          "options": [
+            "No",
+            "Yes, and it updates the model",
+            "Yes, but it doesn't update the model",
+            "Only if you are an admin"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q36",
+          "text": "Sorting/Grouping allows you to:",
+          "options": [
+            "Organize schedule data by specific fields",
+            "Delete data",
+            "Hide data",
+            "Color data"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q37",
+          "text": "Grand Totals in a schedule show:",
+          "options": [
+            "The sum of a column",
+            "The date",
+            "The project name",
+            "The file size"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q38",
+          "text": "A Calculated Value in a schedule is:",
+          "options": [
+            "A formula-based parameter",
+            "A text note",
+            "A drawing",
+            "A picture"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q39",
+          "text": "To export a schedule to Excel:",
+          "options": [
+            "File > Export > Reports > Schedule",
+            "Copy and Paste",
+            "Print to PDF",
+            "Save As"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q40",
+          "text": "A Note Block is used for:",
+          "options": [
+            "Scheduling generic annotations",
+            "Writing music",
+            "Drawing blocks",
+            "Making lists"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "BIM Worksharing & Collaboration",
+      "questions": [
+        {
+          "id": "q36",
+          "text": "Worksharing allows:",
+          "options": [
+            "Multiple users to work on the same file simultaneously",
+            "Sharing files via email",
+            "Printing faster",
+            "Rendering in the cloud"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q37",
+          "text": "The Central Model is:",
+          "options": [
+            "The backup file",
+            "The master file on the server",
+            "The file on your computer",
+            "The template"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q38",
+          "text": "A Local File is:",
+          "options": [
+            "A copy of the Central Model on a user's computer",
+            "The server file",
+            "A read-only file",
+            "A PDF"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q39",
+          "text": "Synchronize with Central:",
+          "options": [
+            "Saves changes to the Central Model",
+            "Deletes the file",
+            "Closes the program",
+            "Prints the file"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q40",
+          "text": "Worksets are used to:",
+          "options": [
+            "Group elements for visibility and ownership",
+            "Create sets of drawings",
+            "Make coffee",
+            "Schedule work hours"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q41",
+          "text": "To borrow an element in a workshared file:",
+          "options": [
+            "Select it and modify it (if available)",
+            "Ask permission via email",
+            "Call the manager",
+            "Delete it"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q42",
+          "text": "Worksharing Monitor is used to:",
+          "options": [
+            "View current users and sync status",
+            "Watch movies",
+            "Monitor internet speed",
+            "Check weather"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q43",
+          "text": "Detaching from Central creates:",
+          "options": [
+            "An independent file",
+            "A local file",
+            "A backup",
+            "A template"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q44",
+          "text": "Element Ownership means:",
+          "options": [
+            "Only the owner can edit the element",
+            "Everyone can edit",
+            "No one can edit",
+            "The element is locked"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q45",
+          "text": "Reload Latest updates:",
+          "options": [
+            "Your local file with changes from Central",
+            "The Central Model",
+            "The template",
+            "The software"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "3D Modeling & Site Elements",
+      "questions": [
+        {
+          "id": "q41",
+          "text": "Massing is used for:",
+          "options": [
+            "Detailed design",
+            "Conceptual design and volume studies",
+            "Drafting",
+            "Scheduling"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q42",
+          "text": "Toposurface is created using:",
+          "options": [
+            "Points with elevation",
+            "Lines",
+            "Circles",
+            "Walls"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q43",
+          "text": "A Building Pad is used to:",
+          "options": [
+            "Make a notebook",
+            "Cut and fill topography for a building footprint",
+            "Draw a floor",
+            "Create a roof"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q44",
+          "text": "Railings can be hosted on:",
+          "options": [
+            "Stairs, Ramps, and Floors",
+            "Walls only",
+            "Ceilings",
+            "Windows"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q45",
+          "text": "Site Components include:",
+          "options": [
+            "Trees, Parking spaces, and Entourage",
+            "Walls",
+            "Doors",
+            "Roofs"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q46",
+          "text": "A Subregion defines:",
+          "options": [
+            "An area on the toposurface with a different material",
+            "A hole",
+            "A wall",
+            "A floor"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q47",
+          "text": "To create a conceptual mass:",
+          "options": [
+            "Use \"In-Place Mass\" or \"New Conceptual Mass\" family",
+            "Use a wall",
+            "Use a floor",
+            "Use a roof"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q48",
+          "text": "Mass Floors are used to:",
+          "options": [
+            "Calculate floor areas in a mass",
+            "Make real floors",
+            "Draw lines",
+            "Hide the mass"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q49",
+          "text": "Model by Face allows you to:",
+          "options": [
+            "Create walls, floors, roofs from mass faces",
+            "Paint faces",
+            "Delete faces",
+            "Move faces"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q50",
+          "text": "Property Lines are drawn in:",
+          "options": [
+            "Site Plan",
+            "Elevation",
+            "Section",
+            "3D View"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Rendering & Presentation",
+      "questions": [
+        {
+          "id": "q46",
+          "text": "Materials in Revit control:",
+          "options": [
+            "Graphics, Appearance, and Physical properties",
+            "Only color",
+            "Only cost",
+            "Only weight"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q47",
+          "text": "To render an image, you can use:",
+          "options": [
+            "The Render dialog (RR)",
+            "The Print dialog",
+            "The Save command",
+            "The Close command"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q48",
+          "text": "Artificial lights are:",
+          "options": [
+            "Sunlight",
+            "Light fixtures placed in the model",
+            "Background images",
+            "Colors"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q49",
+          "text": "A Walkthrough is:",
+          "options": [
+            "A video animation following a path",
+            "A static image",
+            "A floor plan",
+            "A section"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q50",
+          "text": "Ray Trace visual style provides:",
+          "options": [
+            "Interactive rendering in the view",
+            "Wireframe view",
+            "Hidden line view",
+            "Sketchy lines"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q51",
+          "text": "Decals are used for:",
+          "options": [
+            "Placing images (posters, signs) on surfaces",
+            "Painting walls",
+            "Drawing lines",
+            "Making holes"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q52",
+          "text": "Sun Settings control:",
+          "options": [
+            "Solar path, time of day, and location",
+            "The weather",
+            "The rain",
+            "The wind"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q53",
+          "text": "Rendering quality depends on:",
+          "options": [
+            "Resolution and DPI settings",
+            "File name",
+            "Date",
+            "User name"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q54",
+          "text": "Cloud Rendering allows you to:",
+          "options": [
+            "Render images on Autodesk servers",
+            "Render on your phone",
+            "Render instantly",
+            "Render without internet"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q55",
+          "text": "RPC content refers to:",
+          "options": [
+            "Rich Photorealistic Content (Trees, People)",
+            "Random PC Content",
+            "Real Project Content",
+            "Revit Project Cloud"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Advanced Family Creation",
+      "questions": [
+        {
+          "id": "q51",
+          "text": "The Family Editor is used to:",
+          "options": [
+            "Create and modify loadable families",
+            "Edit the project",
+            "Write emails",
+            "Browse the web"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q52",
+          "text": "Parameters in families allow for:",
+          "options": [
+            "Changing dimensions and properties of family instances",
+            "Nothing",
+            "Static geometry",
+            "Color only"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q53",
+          "text": "A Nested Family is:",
+          "options": [
+            "A family loaded into another family",
+            "A family in a project",
+            "A system family",
+            "A template"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q54",
+          "text": "Shared Parameters can be used in:",
+          "options": [
+            "Families, Projects, and Tags",
+            "Only projects",
+            "Only families",
+            "Nowhere"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q55",
+          "text": "Extrusion creates geometry by:",
+          "options": [
+            "Pushing a 2D profile into 3D",
+            "Spinning a profile",
+            "Sweeping along a path",
+            "Blending two shapes"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q56",
+          "text": "Sweep creates geometry by:",
+          "options": [
+            "Moving a profile along a path",
+            "Rotating a profile",
+            "Blending two profiles",
+            "Pushing a profile"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q57",
+          "text": "Revolve creates geometry by:",
+          "options": [
+            "Rotating a profile around an axis",
+            "Pushing a profile",
+            "Sweeping a profile",
+            "Blending profiles"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q58",
+          "text": "Blend creates geometry by:",
+          "options": [
+            "Morphing between two profiles",
+            "Pushing a profile",
+            "Rotating a profile",
+            "Sweeping a profile"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q59",
+          "text": "Void Forms are used to:",
+          "options": [
+            "Cut geometry from solid forms",
+            "Add geometry",
+            "Paint geometry",
+            "Hide geometry"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q60",
+          "text": "Reference Lines in families are used to:",
+          "options": [
+            "Control angular constraints",
+            "Draw walls",
+            "Make floors",
+            "Create text"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Phasing and Design Options",
+      "questions": [
+        {
+          "id": "q56",
+          "text": "Phasing is used to:",
+          "options": [
+            "Represent time (Existing, New Construction)",
+            "Change colors",
+            "Group views",
+            "Create sheets"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q57",
+          "text": "Design Options allow you to:",
+          "options": [
+            "Explore different design alternatives in the same model",
+            "Create new files",
+            "Change the software version",
+            "Print faster"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q58",
+          "text": "Revision Clouds are used to:",
+          "options": [
+            "Mark changes on a drawing",
+            "Draw clouds in the sky",
+            "Create roofs",
+            "Make floors"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q59",
+          "text": "Phase Filters control:",
+          "options": [
+            "The appearance of elements based on their phase status",
+            "The view scale",
+            "The line weight",
+            "The text size"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q60",
+          "text": "Demolished elements are usually shown as:",
+          "options": [
+            "Dashed lines",
+            "Solid lines",
+            "Invisible",
+            "Red"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q61",
+          "text": "To set the phase of a view:",
+          "options": [
+            "Use the Phase parameter in View Properties",
+            "Use the Phase tool",
+            "Use the Time tool",
+            "Use the Date tool"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q62",
+          "text": "To assign an element to a design option:",
+          "options": [
+            "Select element > Add to Set",
+            "Delete it",
+            "Move it",
+            "Copy it"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q63",
+          "text": "Primary Option is:",
+          "options": [
+            "The preferred design option",
+            "The first option",
+            "The last option",
+            "The wrong option"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q64",
+          "text": "Revision Schedule displays:",
+          "options": [
+            "List of revisions in the project",
+            "List of clouds",
+            "List of views",
+            "List of sheets"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q65",
+          "text": "To merge a design option into the main model:",
+          "options": [
+            "Design Options > Accept Primary",
+            "Delete option",
+            "Move option",
+            "Copy option"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    }
+  ],
+  "Certification in ArchiCAD": [
+    {
+      "module": "Starting a New Project & Template Setup",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "ArchiCAD is a product of:",
+          "options": [
+            "Autodesk",
+            "Graphisoft",
+            "Adobe",
+            "Bentley"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "text": "The Navigator in ArchiCAD is used to:",
+          "options": [
+            "Browse the internet",
+            "Manage project views, layouts, and publisher sets",
+            "Draw lines",
+            "Render images"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "text": "A TPL file is:",
+          "options": [
+            "A Project File",
+            "A Template File",
+            "A Backup File",
+            "A Library File"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q4",
+          "text": "Work Environment profiles store:",
+          "options": [
+            "Project geometry",
+            "User interface preferences and shortcuts",
+            "Layer settings",
+            "Building materials"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q5",
+          "text": "The Toolbox contains:",
+          "options": [
+            "Construction and documentation tools",
+            "Only 3D tools",
+            "Only 2D tools",
+            "Settings"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Story Configurations & Building Levels",
+      "questions": [
+        {
+          "id": "q6",
+          "text": "Stories in ArchiCAD represent:",
+          "options": [
+            "Vertical levels of the building",
+            "Chapters in a book",
+            "Layers",
+            "Views"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q7",
+          "text": "To edit story heights, you use:",
+          "options": [
+            "Story Settings",
+            "Layer Settings",
+            "Wall Settings",
+            "View Settings"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q8",
+          "text": "Elements linked to a Home Story:",
+          "options": [
+            "Move when the story height changes",
+            "Stay in place",
+            "Delete themselves",
+            "Change color"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q9",
+          "text": "Can you have negative story elevations?",
+          "options": [
+            "No",
+            "Yes, for basements",
+            "Only in 2D",
+            "Only in 3D"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q10",
+          "text": "Ghost Story allows you to:",
+          "options": [
+            "See a reference of another story",
+            "Scare people",
+            "Hide the story",
+            "Delete the story"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Walls, Slabs, Beams & Columns",
+      "questions": [
+        {
+          "id": "q11",
+          "text": "Composite Structures consist of:",
+          "options": [
+            "A single material",
+            "Multiple skins/layers of materials",
+            "Only lines",
+            "Only fills"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q12",
+          "text": "The Reference Line of a wall determines:",
+          "options": [
+            "How it connects to other walls",
+            "Its height",
+            "Its color",
+            "Its layer"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q13",
+          "text": "A Slab is typically used for:",
+          "options": [
+            "Roofs",
+            "Floors and ceilings",
+            "Walls",
+            "Columns"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q14",
+          "text": "Complex Profiles allow you to:",
+          "options": [
+            "Extrude custom shapes for walls, beams, and columns",
+            "Draw simple lines",
+            "Make text",
+            "Create layers"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q15",
+          "text": "Priority Based Connections mean:",
+          "options": [
+            "Stronger materials cut weaker ones automatically",
+            "You must trim everything manually",
+            "Lines are always visible",
+            "Nothing connects"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Object Libraries & Custom Objects",
+      "questions": [
+        {
+          "id": "q16",
+          "text": "GDL stands for:",
+          "options": [
+            "Geometric Description Language",
+            "Graphic Design Layer",
+            "General Drawing Line",
+            "Global Data Link"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q17",
+          "text": "Objects in ArchiCAD are:",
+          "options": [
+            "Parametric",
+            "Static blocks",
+            "Just 2D drawings",
+            "Images"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q18",
+          "text": "To place a window, you must have:",
+          "options": [
+            "A Wall",
+            "A Slab",
+            "A Roof",
+            "Nothing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q19",
+          "text": "The Library Manager is used to:",
+          "options": [
+            "Load and manage libraries",
+            "Draw objects",
+            "Edit GDL code",
+            "Render"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q20",
+          "text": "Can you create custom objects without coding GDL?",
+          "options": [
+            "No",
+            "Yes, by saving model elements as objects",
+            "Only if you buy them",
+            "Only in 2D"
+          ],
+          "correctAnswer": 1
+        }
+      ]
+    },
+    {
+      "module": "Stairs, Railings & Building Components",
+      "questions": [
+        {
+          "id": "q21",
+          "text": "The Stair Tool uses:",
+          "options": [
+            "Predictive input and rules",
+            "Manual line drawing",
+            "Only standard shapes",
+            "Text input"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q22",
+          "text": "Railings can be associative to:",
+          "options": [
+            "Stairs, Slabs, Walls, Meshes",
+            "Nothing",
+            "Only Stairs",
+            "Only Slabs"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q23",
+          "text": "A Curtain Wall is:",
+          "options": [
+            "A hierarchical system of frames and panels",
+            "A simple wall",
+            "A window",
+            "A door"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q24",
+          "text": "The Shell Tool is used for:",
+          "options": [
+            "Complex curved forms",
+            "Simple boxes",
+            "Flat roofs",
+            "Floors"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q25",
+          "text": "Morph Tool allows for:",
+          "options": [
+            "Freeform modeling",
+            "Strict parametric modeling",
+            "2D drafting",
+            "Text editing"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Creating Sections & Elevations",
+      "questions": [
+        {
+          "id": "q26",
+          "text": "Sections and Elevations are:",
+          "options": [
+            "Live views of the model",
+            "Static drawings",
+            "Imported images",
+            "Separate files"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q27",
+          "text": "A Worksheet is typically used for:",
+          "options": [
+            "2D detailing and external drawings",
+            "3D modeling",
+            "Rendering",
+            "Schedules"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q28",
+          "text": "The Detail Tool creates:",
+          "options": [
+            "A new viewpoint for fine details",
+            "A 3D view",
+            "A section",
+            "A layout"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q29",
+          "text": "Trace Reference allows you to:",
+          "options": [
+            "See another view as an underlay",
+            "Trace lines automatically",
+            "Copy files",
+            "Print"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q30",
+          "text": "Marker Range controls:",
+          "options": [
+            "The depth and width of the view",
+            "The color of the marker",
+            "The text size",
+            "The layer"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "BIMx & Publishing Workflows",
+      "questions": [
+        {
+          "id": "q31",
+          "text": "BIMx is:",
+          "options": [
+            "A mobile presentation app for ArchiCAD models",
+            "A rendering engine",
+            "A modeling tool",
+            "A spreadsheet"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q32",
+          "text": "The Publisher is used to:",
+          "options": [
+            "Export multiple views/layouts in various formats",
+            "Write books",
+            "Publish websites",
+            "Send emails"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q33",
+          "text": "IFC stands for:",
+          "options": [
+            "Industry Foundation Classes",
+            "International Format Code",
+            "Internal File Conversion",
+            "Image File Compression"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q34",
+          "text": "IFC is used for:",
+          "options": [
+            "OpenBIM data exchange",
+            "Rendering",
+            "Printing",
+            "Drafting"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q35",
+          "text": "Hyper-models in BIMx contain:",
+          "options": [
+            "2D documentation integrated with 3D model",
+            "Only 3D",
+            "Only 2D",
+            "Text only"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Layout Book & Documentation Standards",
+      "questions": [
+        {
+          "id": "q36",
+          "text": "A Layout represents:",
+          "options": [
+            "A printable sheet of paper",
+            "A model view",
+            "A layer",
+            "A story"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q37",
+          "text": "A Master Layout contains:",
+          "options": [
+            "Title blocks and common elements for layouts",
+            "The 3D model",
+            "Schedules",
+            "Nothing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q38",
+          "text": "Drawings placed on Layouts are:",
+          "options": [
+            "Linked to model views",
+            "Static images",
+            "Separate files",
+            "Text"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q39",
+          "text": "Subsets in the Layout Book are:",
+          "options": [
+            "Folders to organize layouts",
+            "Types of lines",
+            "Layers",
+            "Views"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q40",
+          "text": "Autotext in Title Blocks:",
+          "options": [
+            "Updates automatically (e.g., Project Name, Date)",
+            "Must be typed manually",
+            "Is random",
+            "Does not exist"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Advanced Data Management",
+      "questions": [
+        {
+          "id": "q41",
+          "text": "Classifications are used to:",
+          "options": [
+            "Identify what an element is (e.g., Wall, Slab)",
+            "Color elements",
+            "Hide elements",
+            "Delete elements"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q42",
+          "text": "Properties store:",
+          "options": [
+            "Non-geometric data (e.g., Fire Rating, Cost)",
+            "Geometry",
+            "Layers",
+            "Views"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q43",
+          "text": "Graphic Overrides allow you to:",
+          "options": [
+            "Change the appearance of elements based on rules",
+            "Draw over the model",
+            "Delete lines",
+            "Change the interface color"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q44",
+          "text": "Interactive Schedules are:",
+          "options": [
+            "Bi-directional (changes in schedule update model)",
+            "Static text",
+            "Excel files",
+            "Images"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q45",
+          "text": "Expressions in Properties allow for:",
+          "options": [
+            "Calculations and data concatenation",
+            "Drawing lines",
+            "Rendering",
+            "Printing"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "High-End Visualization",
+      "questions": [
+        {
+          "id": "q46",
+          "text": "CineRender is:",
+          "options": [
+            "The built-in rendering engine in ArchiCAD",
+            "A separate app",
+            "A plugin",
+            "A virus"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q47",
+          "text": "Surfaces in ArchiCAD define:",
+          "options": [
+            "Material appearance (Texture, Reflection)",
+            "Building material physics",
+            "Fill patterns",
+            "Line types"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q48",
+          "text": "Twinmotion Direct Link allows:",
+          "options": [
+            "Real-time synchronization with Twinmotion",
+            "Exporting to PDF",
+            "Saving as DWG",
+            "Printing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q49",
+          "text": "Global Illumination simulates:",
+          "options": [
+            "Bounced light",
+            "Direct sunlight only",
+            "Flashlights",
+            "Neon lights"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q50",
+          "text": "White Model rendering is used for:",
+          "options": [
+            "Conceptual presentations",
+            "Final realism",
+            "Construction docs",
+            "Schedules"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q51",
+          "text": "Ambient Occlusion adds:",
+          "options": [
+            "Shading in corners and contact shadows",
+            "Color",
+            "Light",
+            "Reflection"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q52",
+          "text": "HDRI images are used for:",
+          "options": [
+            "Realistic lighting and background environments",
+            "Textures",
+            "Modeling",
+            "Drafting"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q53",
+          "text": "To create a fly-through animation:",
+          "options": [
+            "Create a camera path",
+            "Move the mouse",
+            "Scroll",
+            "Click"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q54",
+          "text": "Bump maps create the illusion of:",
+          "options": [
+            "Surface relief/depth",
+            "Color",
+            "Reflection",
+            "Transparency"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q55",
+          "text": "Render Safe Frame shows:",
+          "options": [
+            "The exact area that will be rendered",
+            "The whole screen",
+            "The model",
+            "The layout"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    }
+  ],
+  "Certification in Structural CAD & Detailing": [
+    {
+      "module": "Introduction to Structural Drafting",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "What is the primary role of a Structural Draftsman?",
+          "options": [
+            "To design the building aesthetics",
+            "To create detailed drawings for construction based on engineering calculations",
+            "To manage the construction site",
+            "To sell the building"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q2",
+          "text": "BS 8110 and Eurocode 2 are standards for:",
+          "options": [
+            "Steel structures",
+            "Concrete structures",
+            "Timber structures",
+            "Road design"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q3",
+          "text": "Structural calculations provide:",
+          "options": [
+            "The color of the concrete",
+            "Member sizes and reinforcement requirements",
+            "The cost of the building",
+            "The completion date"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q4",
+          "text": "GA stands for:",
+          "options": [
+            "General Arrangement",
+            "Great Architecture",
+            "Ground Area",
+            "Global Axis"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q5",
+          "text": "Which scale is commonly used for structural details?",
+          "options": [
+            "1:100",
+            "1:20 or 1:25",
+            "1:500",
+            "1:1000"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q6",
+          "text": "RC stands for:",
+          "options": [
+            "Reinforced Concrete",
+            "Real Concrete",
+            "Roof Covering",
+            "Road Construction"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q7",
+          "text": "A structural grid helps in:",
+          "options": [
+            "Locating columns and walls",
+            "Painting",
+            "Lighting",
+            "Plumbing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q8",
+          "text": "CAD stands for:",
+          "options": [
+            "Computer Aided Design",
+            "Computer Aided Drafting",
+            "Computer Aided Drawing",
+            "All of the above"
+          ],
+          "correctAnswer": 3
+        },
+        {
+          "id": "q9",
+          "text": "A Section Mark indicates:",
+          "options": [
+            "Where a section view is cut",
+            "A door",
+            "A window",
+            "A wall"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q10",
+          "text": "Detail drawings are usually drawn at:",
+          "options": [
+            "Larger scales (e.g., 1:10, 1:20)",
+            "Smaller scales (e.g., 1:100)",
+            "1:1",
+            "No scale"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Understanding Structural Loads & Members",
+      "questions": [
+        {
+          "id": "q6",
+          "text": "Dead Load refers to:",
+          "options": [
+            "People and furniture",
+            "The self-weight of the structure and permanent fixtures",
+            "Wind pressure",
+            "Earthquake forces"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q7",
+          "text": "Live Load (Imposed Load) includes:",
+          "options": [
+            "Concrete weight",
+            "Occupants, furniture, and movable equipment",
+            "Walls",
+            "Foundations"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "text": "A Beam typically carries load:",
+          "options": [
+            "Axially",
+            "Transversely (bending)",
+            "Torsionally only",
+            "It does not carry load"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q9",
+          "text": "A Column transfers load:",
+          "options": [
+            "From the roof/floor to the foundation",
+            "From the foundation to the roof",
+            "Horizontally",
+            "It does not transfer load"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q10",
+          "text": "Load Path generally flows:",
+          "options": [
+            "Slab -> Beam -> Column -> Foundation",
+            "Foundation -> Column -> Beam -> Slab",
+            "Beam -> Slab -> Column",
+            "Randomly"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q11",
+          "text": "Wind load is primarily a:",
+          "options": [
+            "Vertical load",
+            "Lateral (Horizontal) load",
+            "Dead load",
+            "Live load"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q12",
+          "text": "Seismic load refers to:",
+          "options": [
+            "Earthquake forces",
+            "Wind forces",
+            "Snow load",
+            "Rain load"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q13",
+          "text": "A Shear Wall is designed to resist:",
+          "options": [
+            "Lateral loads (Wind/Seismic)",
+            "Gravity loads only",
+            "Temperature changes",
+            "Sound"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q14",
+          "text": "A Cantilever beam is supported at:",
+          "options": [
+            "One end only",
+            "Both ends",
+            "Middle",
+            "Nowhere"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q15",
+          "text": "Torsion refers to:",
+          "options": [
+            "Twisting force",
+            "Bending force",
+            "Axial force",
+            "Shear force"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Reinforcement Detailing Principles",
+      "questions": [
+        {
+          "id": "q11",
+          "text": "High Yield Steel typically has a yield strength of:",
+          "options": [
+            "250 N/mm²",
+            "460 or 500 N/mm²",
+            "1000 N/mm²",
+            "100 N/mm²"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q12",
+          "text": "Concrete Cover is provided to:",
+          "options": [
+            "Make the beam look good",
+            "Protect steel from corrosion and fire",
+            "Save concrete",
+            "Increase weight"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q13",
+          "text": "Lap Length is required when:",
+          "options": [
+            "A bar is too short and needs to be extended",
+            "The bar is too thick",
+            "The concrete is weak",
+            "Always"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q14",
+          "text": "Anchorage Length ensures:",
+          "options": [
+            "The bar doesn't pull out of the concrete",
+            "The bar breaks",
+            "The concrete cracks",
+            "The bar rusts"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q15",
+          "text": "A standard hook for a stirrup is often:",
+          "options": [
+            "90 degrees",
+            "135 degrees",
+            "180 degrees",
+            "45 degrees"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q16",
+          "text": "Mild Steel typically has a yield strength of:",
+          "options": [
+            "250 N/mm²",
+            "460 N/mm²",
+            "500 N/mm²",
+            "1000 N/mm²"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q17",
+          "text": "Bar spacing is important for:",
+          "options": [
+            "Concrete compaction and crack control",
+            "Saving steel",
+            "Making it look nice",
+            "Nothing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q18",
+          "text": "The symbol \"T\" or \"H\" usually denotes:",
+          "options": [
+            "High Yield Steel",
+            "Mild Steel",
+            "Timber",
+            "Hollow"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q19",
+          "text": "The symbol \"R\" usually denotes:",
+          "options": [
+            "Mild Steel",
+            "High Yield Steel",
+            "Roof",
+            "Road"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q20",
+          "text": "Minimum reinforcement is provided to:",
+          "options": [
+            "Control cracking due to shrinkage and temperature",
+            "Carry load",
+            "Look good",
+            "Add weight"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Foundation Detailing",
+      "questions": [
+        {
+          "id": "q16",
+          "text": "An Isolated Footing supports:",
+          "options": [
+            "A single column",
+            "Two columns",
+            "A wall",
+            "The entire building"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q17",
+          "text": "A Combined Footing is used when:",
+          "options": [
+            "Columns are far apart",
+            "Columns are close together or overlap",
+            "The soil is rock",
+            "There are no columns"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q18",
+          "text": "Reinforcement in a footing is primarily at the:",
+          "options": [
+            "Top",
+            "Bottom",
+            "Middle",
+            "Sides"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q19",
+          "text": "Pile Caps transfer load from:",
+          "options": [
+            "Column to Piles",
+            "Piles to Column",
+            "Slab to Beam",
+            "Wall to Roof"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q20",
+          "text": "A Starter Bar (Dowel) connects:",
+          "options": [
+            "Footing to Column",
+            "Beam to Slab",
+            "Roof to Wall",
+            "Window to Wall"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q21",
+          "text": "A Raft Foundation is used when:",
+          "options": [
+            "Soil is weak or loads are heavy",
+            "Soil is rock",
+            "The building is small",
+            "There is no load"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q22",
+          "text": "Blinding concrete is:",
+          "options": [
+            "A thin layer of weak concrete under footings",
+            "Strong concrete",
+            "Reinforced concrete",
+            "Colored concrete"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q23",
+          "text": "Punching shear is a critical check for:",
+          "options": [
+            "Footings and flat slabs",
+            "Beams",
+            "Columns",
+            "Walls"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q24",
+          "text": "The depth of a footing is determined by:",
+          "options": [
+            "Shear and bending requirements",
+            "Random choice",
+            "Color",
+            "Width"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q25",
+          "text": "Eccentric footing is used when:",
+          "options": [
+            "The column is on the property line",
+            "The column is in the center",
+            "The soil is good",
+            "Never"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Column, Beam & Slab Detailing",
+      "questions": [
+        {
+          "id": "q21",
+          "text": "Main reinforcement in a beam is placed at the bottom to resist:",
+          "options": [
+            "Compression",
+            "Tension (Sagging)",
+            "Shear",
+            "Torsion"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q22",
+          "text": "Stirrups (Links) in beams resist:",
+          "options": [
+            "Bending moment",
+            "Shear forces",
+            "Axial load",
+            "Wind load"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q23",
+          "text": "In a One-Way Slab, main reinforcement is placed:",
+          "options": [
+            "Along the shorter span",
+            "Along the longer span",
+            "Diagonally",
+            "Randomly"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q24",
+          "text": "Top reinforcement over supports in continuous beams resists:",
+          "options": [
+            "Sagging moment",
+            "Hogging moment (Tension at top)",
+            "Shear",
+            "Compression"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q25",
+          "text": "Column ties (links) prevent:",
+          "options": [
+            "Buckling of longitudinal bars",
+            "Rusting",
+            "Cracking",
+            "Bending"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q26",
+          "text": "A Two-Way Slab bends in:",
+          "options": [
+            "One direction",
+            "Two directions (dish shape)",
+            "No direction",
+            "Upwards only"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q27",
+          "text": "Distribution bars in a one-way slab are placed:",
+          "options": [
+            "Perpendicular to main bars",
+            "Parallel to main bars",
+            "Diagonally",
+            "Nowhere"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q28",
+          "text": "Crank bars (Bent up bars) are used to:",
+          "options": [
+            "Resist shear and hogging moment",
+            "Look good",
+            "Save steel",
+            "Add weight"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q29",
+          "text": "T-Beam action occurs when:",
+          "options": [
+            "The slab and beam are cast monolithically",
+            "They are separate",
+            "The beam is steel",
+            "The slab is wood"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q30",
+          "text": "Minimum number of bars in a rectangular column is:",
+          "options": [
+            "4",
+            "6",
+            "3",
+            "2"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Bar Bending Schedules",
+      "questions": [
+        {
+          "id": "q26",
+          "text": "BBS stands for:",
+          "options": [
+            "Building Block System",
+            "Bar Bending Schedule",
+            "Beam Bending Strength",
+            "Basic Building Standard"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q27",
+          "text": "Shape Codes define:",
+          "options": [
+            "The color of the bar",
+            "The bending shape of the reinforcement bar",
+            "The weight of the bar",
+            "The manufacturer"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q28",
+          "text": "Cutting Length is:",
+          "options": [
+            "Total length of the bar including hooks and bends",
+            "Length of the beam",
+            "Height of the column",
+            "Width of the slab"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q29",
+          "text": "Steel density is approximately:",
+          "options": [
+            "2400 kg/m³",
+            "7850 kg/m³",
+            "1000 kg/m³",
+            "500 kg/m³"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q30",
+          "text": "BBS helps in:",
+          "options": [
+            "Ordering steel, cutting, and bending",
+            "Designing the building",
+            "Painting",
+            "Plumbing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q31",
+          "text": "Total weight of steel is calculated by:",
+          "options": [
+            "Total Length x Unit Weight",
+            "Length + Weight",
+            "Area x Volume",
+            "Counting bars"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q32",
+          "text": "Unit weight of a 10mm bar is approx:",
+          "options": [
+            "0.617 kg/m",
+            "1.0 kg/m",
+            "2.0 kg/m",
+            "0.22 kg/m"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q33",
+          "text": "Deduction for a 90-degree bend is usually:",
+          "options": [
+            "1d",
+            "2d",
+            "3d",
+            "4d"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q34",
+          "text": "Deduction for a 45-degree bend is usually:",
+          "options": [
+            "1d",
+            "2d",
+            "3d",
+            "4d"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q35",
+          "text": "Rolling Margin refers to:",
+          "options": [
+            "Tolerance in weight/section of steel bars",
+            "Rolling the steel",
+            "Profit margin",
+            "Safety margin"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Structural Templates & Standards",
+      "questions": [
+        {
+          "id": "q31",
+          "text": "A Structural Template ensures:",
+          "options": [
+            "Consistency in layers, styles, and blocks",
+            "Faster internet",
+            "Better computer performance",
+            "Cheaper printing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q32",
+          "text": "Layer naming conventions help in:",
+          "options": [
+            "Confusing the user",
+            "Organizing and managing drawing data",
+            "Making the file larger",
+            "Hiding errors"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q33",
+          "text": "CTB files control:",
+          "options": [
+            "Plot styles (colors to line weights)",
+            "Font styles",
+            "Dimension styles",
+            "Layer states"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q34",
+          "text": "Checking drawings involves:",
+          "options": [
+            "Verifying dimensions, reinforcement, and notes against design",
+            "Just looking at them",
+            "Signing them blindly",
+            "Printing them"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q35",
+          "text": "PDF export is preferred for site because:",
+          "options": [
+            "It is editable",
+            "It preserves the drawing appearance and is widely viewable",
+            "It is a 3D format",
+            "It is a video format"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q36",
+          "text": "A Title Block should contain:",
+          "options": [
+            "Project name, Drawing title, Scale, Date, Revisions",
+            "Jokes",
+            "Pictures of cats",
+            "Nothing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q37",
+          "text": "Xref stands for:",
+          "options": [
+            "External Reference",
+            "Extra Reference",
+            "Exact Reference",
+            "X-ray Reference"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q38",
+          "text": "Paper Space is used for:",
+          "options": [
+            "Layout and printing",
+            "Modeling",
+            "Drafting",
+            "Calculations"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q39",
+          "text": "Model Space is used for:",
+          "options": [
+            "Drawing the geometry at 1:1 scale",
+            "Printing",
+            "Writing notes",
+            "Making lists"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q40",
+          "text": "Revision clouds indicate:",
+          "options": [
+            "Changes made to the drawing",
+            "Clouds in the sky",
+            "Mistakes",
+            "Decorations"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Specialized Structural Elements",
+      "questions": [
+        {
+          "id": "q36",
+          "text": "In a Cantilever Retaining Wall, main steel is on the:",
+          "options": [
+            "Earth face (Rear)",
+            "Front face",
+            "Middle",
+            "Top"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q37",
+          "text": "Dog-legged staircase has:",
+          "options": [
+            "One flight",
+            "Two flights with a landing",
+            "Three flights",
+            "No landing"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q38",
+          "text": "Water tanks require special attention to:",
+          "options": [
+            "Crack width control and water tightness",
+            "Color",
+            "Height",
+            "Windows"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q39",
+          "text": "Seismic detailing often requires:",
+          "options": [
+            "Closer spacing of stirrups near joints (ductility)",
+            "Less steel",
+            "No stirrups",
+            "Thinner concrete"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q40",
+          "text": "A Shear Key in a retaining wall prevents:",
+          "options": [
+            "Sliding",
+            "Overturning",
+            "Cracking",
+            "Rusting"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q41",
+          "text": "Weep holes in retaining walls are for:",
+          "options": [
+            "Draining water from behind the wall",
+            "Ventilation",
+            "Decoration",
+            "Planting"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q42",
+          "text": "In a spiral staircase, the main reinforcement is:",
+          "options": [
+            "Spiral bars",
+            "Straight bars",
+            "Mesh",
+            "None"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q43",
+          "text": "Water bars (Waterstops) are used in:",
+          "options": [
+            "Construction joints of water tanks",
+            "Roofs",
+            "Windows",
+            "Doors"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q44",
+          "text": "Ductility in seismic design means:",
+          "options": [
+            "Ability to deform without sudden failure",
+            "Strength only",
+            "Stiffness only",
+            "Brittleness"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q45",
+          "text": "Counterforts are used in:",
+          "options": [
+            "Tall retaining walls",
+            "Short walls",
+            "Slabs",
+            "Beams"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    }
+  ],
+  "Civil Engineering Project Management": [
+    {
+      "module": "Introduction to Project Management",
+      "questions": [
+        {
+          "id": "q1",
+          "text": "A Project is defined as:",
+          "options": [
+            "A temporary endeavor undertaken to create a unique product, service, or result",
+            "A routine operation",
+            "A continuous process",
+            "A hobby"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q2",
+          "text": "The Triple Constraint (Iron Triangle) consists of:",
+          "options": [
+            "Scope, Time, Cost",
+            "Money, People, Time",
+            "Quality, Risk, Scope",
+            "Plan, Do, Check"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q3",
+          "text": "Stakeholders are:",
+          "options": [
+            "Only the investors",
+            "Anyone affected by or affecting the project",
+            "Only the workers",
+            "Only the government"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q4",
+          "text": "KPI stands for:",
+          "options": [
+            "Key Performance Indicator",
+            "Key Project Information",
+            "Keep People Interested",
+            "Key Plan Initiation"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q5",
+          "text": "The Project Charter is:",
+          "options": [
+            "A document that formally authorizes the project",
+            "A map",
+            "A schedule",
+            "A budget"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q6",
+          "text": "PMBOK stands for:",
+          "options": [
+            "Project Management Body of Knowledge",
+            "Project Management Book of Knowledge",
+            "Project Master Book of Knowledge",
+            "Project Management Base of Knowledge"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q7",
+          "text": "A Program is:",
+          "options": [
+            "A group of related projects managed in a coordinated way",
+            "A single project",
+            "A TV show",
+            "A software"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q8",
+          "text": "Portfolio Management focuses on:",
+          "options": [
+            "Strategic alignment of projects and programs",
+            "Managing one project",
+            "Managing daily tasks",
+            "Managing files"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q9",
+          "text": "Project Scope Management involves:",
+          "options": [
+            "Defining and controlling what is and is not included in the project",
+            "Managing time",
+            "Managing cost",
+            "Managing risk"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q10",
+          "text": "A Project Manager's primary role is to:",
+          "options": [
+            "Achieve project objectives",
+            "Do all the work",
+            "Watch others work",
+            "Spend money"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Project Planning and Scheduling",
+      "questions": [
+        {
+          "id": "q6",
+          "text": "WBS stands for:",
+          "options": [
+            "Work Breakdown Structure",
+            "Work Building System",
+            "Weekly Business Schedule",
+            "Work Balance Sheet"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q7",
+          "text": "The Critical Path is:",
+          "options": [
+            "The shortest path",
+            "The longest path through the network diagram determining the shortest project duration",
+            "The path with the most resources",
+            "The safest path"
+          ],
+          "correctAnswer": 1
+        },
+        {
+          "id": "q8",
+          "text": "A Milestone represents:",
+          "options": [
+            "A significant point or event in the project",
+            "A stone on the road",
+            "A daily task",
+            "A resource"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q9",
+          "text": "Float (Slack) is:",
+          "options": [
+            "The amount of time an activity can be delayed without delaying the project",
+            "Extra money",
+            "A boat",
+            "A type of concrete"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q10",
+          "text": "Resource Leveling is used to:",
+          "options": [
+            "Smooth out resource usage over time",
+            "Make the ground level",
+            "Increase costs",
+            "Reduce quality"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q11",
+          "text": "Fast Tracking involves:",
+          "options": [
+            "Performing activities in parallel that are normally done in sequence",
+            "Running fast",
+            "Skipping tasks",
+            "Adding more resources"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q12",
+          "text": "Crashing a schedule means:",
+          "options": [
+            "Adding resources to shorten duration at a higher cost",
+            "Destroying the schedule",
+            "Stopping the project",
+            "Reducing quality"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q13",
+          "text": "A Gantt Chart shows:",
+          "options": [
+            "Schedule activities against time",
+            "Costs vs Time",
+            "Risks",
+            "Quality"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q14",
+          "text": "Lag time is:",
+          "options": [
+            "A delay between a predecessor and a successor activity",
+            "Speed",
+            "Distance",
+            "Cost"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q15",
+          "text": "Lead time is:",
+          "options": [
+            "An overlap between tasks",
+            "Waiting time",
+            "Travel time",
+            "Break time"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Cost Management and Control",
+      "questions": [
+        {
+          "id": "q11",
+          "text": "Direct Costs include:",
+          "options": [
+            "Labor and materials specifically for the project",
+            "Head office rent",
+            "CEO salary",
+            "Marketing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q12",
+          "text": "Contingency Reserve is for:",
+          "options": [
+            "Known unknowns (identified risks)",
+            "Unknown unknowns",
+            "Profit",
+            "Bonus"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q13",
+          "text": "Earned Value (EV) is:",
+          "options": [
+            "The value of work actually performed",
+            "The planned value",
+            "The actual cost",
+            "The budget"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q14",
+          "text": "CPI (Cost Performance Index) > 1 indicates:",
+          "options": [
+            "Under budget (Good)",
+            "Over budget (Bad)",
+            "On schedule",
+            "Behind schedule"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q15",
+          "text": "Cash Flow analysis helps to:",
+          "options": [
+            "Ensure funds are available when needed",
+            "Make water flow",
+            "Calculate profit only",
+            "Design the building"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q16",
+          "text": "Indirect Costs are also known as:",
+          "options": [
+            "Overheads",
+            "Direct costs",
+            "Variable costs",
+            "Fixed costs"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q17",
+          "text": "S-Curve typically represents:",
+          "options": [
+            "Cumulative cost or progress over time",
+            "A road",
+            "A beam",
+            "A risk"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q18",
+          "text": "SPI (Schedule Performance Index) < 1 indicates:",
+          "options": [
+            "Behind schedule",
+            "Ahead of schedule",
+            "On schedule",
+            "Under budget"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q19",
+          "text": "Management Reserve is for:",
+          "options": [
+            "Unknown unknowns (unforeseen risks)",
+            "Known risks",
+            "Salaries",
+            "Parties"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q20",
+          "text": "Life Cycle Costing considers:",
+          "options": [
+            "Total cost of ownership (acquisition + operation + disposal)",
+            "Only construction cost",
+            "Only design cost",
+            "Only maintenance cost"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Risk and Quality Management",
+      "questions": [
+        {
+          "id": "q16",
+          "text": "A Risk is:",
+          "options": [
+            "An uncertain event that may have a positive or negative effect",
+            "A problem that has happened",
+            "A safety hazard only",
+            "A mistake"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q17",
+          "text": "Risk Mitigation means:",
+          "options": [
+            "Reducing the probability or impact of a risk",
+            "Ignoring the risk",
+            "Transferring the risk",
+            "Accepting the risk"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q18",
+          "text": "Quality Assurance (QA) focuses on:",
+          "options": [
+            "Process improvement and preventing defects",
+            "Finding defects",
+            "Fixing defects",
+            "Testing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q19",
+          "text": "Quality Control (QC) focuses on:",
+          "options": [
+            "Identifying defects in the final product",
+            "Planning",
+            "Training",
+            "Auditing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q20",
+          "text": "A Risk Register is:",
+          "options": [
+            "A document tracking identified risks and responses",
+            "A list of risky people",
+            "A safety manual",
+            "A quality checklist"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q21",
+          "text": "SWOT analysis stands for:",
+          "options": [
+            "Strengths, Weaknesses, Opportunities, Threats",
+            "Safe, Work, On, Time",
+            "Standard, Work, Of, Team",
+            "Simple, Way, Of, Thinking"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q22",
+          "text": "ISO 9001 is a standard for:",
+          "options": [
+            "Quality Management",
+            "Environmental Management",
+            "Safety Management",
+            "Risk Management"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q23",
+          "text": "Risk Transfer involves:",
+          "options": [
+            "Shifting the impact of a threat to a third party (e.g., Insurance)",
+            "Ignoring risk",
+            "Stopping work",
+            "Fixing it yourself"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q24",
+          "text": "A Check Sheet is used for:",
+          "options": [
+            "Data collection",
+            "Sleeping",
+            "Covering equipment",
+            "Drawing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q25",
+          "text": "Pareto Diagram (80/20 rule) helps to:",
+          "options": [
+            "Identify the vital few problems causing the most effects",
+            "Schedule tasks",
+            "Calculate costs",
+            "Manage risks"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Contracts and Procurement",
+      "questions": [
+        {
+          "id": "q21",
+          "text": "A Lump Sum Contract is best when:",
+          "options": [
+            "Scope is well defined",
+            "Scope is undefined",
+            "Fast-tracking is needed",
+            "Risks are high"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q22",
+          "text": "FIDIC is:",
+          "options": [
+            "International Federation of Consulting Engineers (Standard contracts)",
+            "A bank",
+            "A software",
+            "A law"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q23",
+          "text": "A Variation Order (Change Order) is:",
+          "options": [
+            "A formal instruction to change the scope of work",
+            "A suggestion",
+            "A mistake",
+            "A new contract"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q24",
+          "text": "Arbitration is:",
+          "options": [
+            "A dispute resolution method outside of court",
+            "A court trial",
+            "A discussion",
+            "A fight"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q25",
+          "text": "Retention Money is:",
+          "options": [
+            "A percentage of payment held back to ensure quality",
+            "A bonus",
+            "A tax",
+            "A fee"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q26",
+          "text": "A Bill of Quantities contract is a type of:",
+          "options": [
+            "Remeasurement contract",
+            "Lump sum contract",
+            "Cost plus contract",
+            "Design and build contract"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q27",
+          "text": "Liquidated Damages are:",
+          "options": [
+            "Pre-agreed damages for late completion",
+            "A penalty",
+            "A fine",
+            "A bonus"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q28",
+          "text": "Force Majeure refers to:",
+          "options": [
+            "Unforeseeable circumstances that prevent fulfillment of a contract (e.g., war, natural disaster)",
+            "Bad weather",
+            "Lack of money",
+            "Laziness"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q29",
+          "text": "A Letter of Intent (LOI) is:",
+          "options": [
+            "A document expressing intention to enter into a contract",
+            "A contract",
+            "A payment",
+            "A drawing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q30",
+          "text": "Subcontractors are usually hired by:",
+          "options": [
+            "The Main Contractor",
+            "The Client",
+            "The Architect",
+            "The Government"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Team Leadership and Communication",
+      "questions": [
+        {
+          "id": "q26",
+          "text": "Which leadership style involves making decisions without team input?",
+          "options": [
+            "Autocratic",
+            "Democratic",
+            "Laissez-faire",
+            "Servant"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q27",
+          "text": "Active Listening involves:",
+          "options": [
+            "Fully concentrating, understanding, responding, and remembering",
+            "Talking over others",
+            "Ignoring the speaker",
+            "Thinking about lunch"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q28",
+          "text": "Conflict in projects is:",
+          "options": [
+            "Inevitable and can be constructive if managed",
+            "Always bad",
+            "To be avoided at all costs",
+            "Impossible"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q29",
+          "text": "As-Built Drawings show:",
+          "options": [
+            "The project as it was actually constructed",
+            "The original plan",
+            "The future plan",
+            "The dream"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q30",
+          "text": "Handover involves:",
+          "options": [
+            "Transferring the project to the client/operations",
+            "Giving up",
+            "Stopping work",
+            "Firing everyone"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q31",
+          "text": "A RACI matrix defines:",
+          "options": [
+            "Responsible, Accountable, Consulted, Informed roles",
+            "Risk, Action, Cost, Issue",
+            "Red, Amber, Cyan, Indigo",
+            "Nothing"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q32",
+          "text": "Effective communication requires:",
+          "options": [
+            "Sender, Receiver, Message, and Feedback",
+            "Only talking",
+            "Only listening",
+            "Email only"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q33",
+          "text": "Maslow's Hierarchy of Needs is a theory of:",
+          "options": [
+            "Motivation",
+            "Construction",
+            "Costing",
+            "Scheduling"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q34",
+          "text": "Tuckman's stages of group development are:",
+          "options": [
+            "Forming, Storming, Norming, Performing, Adjourning",
+            "Planning, Doing, Checking, Acting",
+            "Start, Middle, End",
+            "One, Two, Three"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q35",
+          "text": "Stakeholder Engagement involves:",
+          "options": [
+            "Communicating and working with stakeholders to meet their needs",
+            "Ignoring them",
+            "Fighting them",
+            "Paying them"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    },
+    {
+      "module": "Modern Trends in Project Management",
+      "questions": [
+        {
+          "id": "q31",
+          "text": "Agile methodology emphasizes:",
+          "options": [
+            "Iterative development and flexibility",
+            "Rigid planning",
+            "No documentation",
+            "Slow progress"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q32",
+          "text": "Lean Construction aims to:",
+          "options": [
+            "Maximize value and minimize waste",
+            "Use less concrete",
+            "Build thinner walls",
+            "Pay less"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q33",
+          "text": "BIM stands for:",
+          "options": [
+            "Building Information Modeling",
+            "Building Image Maker",
+            "Big Idea Maker",
+            "Basic Internet Map"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q34",
+          "text": "Green Project Management considers:",
+          "options": [
+            "Environmental impact and sustainability",
+            "The color green",
+            "Money only",
+            "Speed only"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q35",
+          "text": "Clash Detection in BIM helps to:",
+          "options": [
+            "Identify conflicts between building systems before construction",
+            "Fight",
+            "Make noise",
+            "Crash computers"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q36",
+          "text": "Scrum is a framework used in:",
+          "options": [
+            "Agile Project Management",
+            "Waterfall",
+            "Construction only",
+            "Cooking"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q37",
+          "text": "Just-In-Time (JIT) delivery aims to:",
+          "options": [
+            "Reduce inventory costs",
+            "Deliver late",
+            "Deliver early",
+            "Deliver randomly"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q38",
+          "text": "Sustainability in construction involves:",
+          "options": [
+            "Economic, Social, and Environmental aspects",
+            "Only money",
+            "Only environment",
+            "Only people"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q39",
+          "text": "Prefabrication allows for:",
+          "options": [
+            "Faster construction and better quality control",
+            "Slower construction",
+            "More waste",
+            "Lower quality"
+          ],
+          "correctAnswer": 0
+        },
+        {
+          "id": "q40",
+          "text": "IoT in construction refers to:",
+          "options": [
+            "Internet of Things (Connected devices)",
+            "Internet of Tools",
+            "Input of Text",
+            "Image of Time"
+          ],
+          "correctAnswer": 0
+        }
+      ]
+    }
+  ]
+}

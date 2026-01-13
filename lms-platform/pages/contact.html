@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Construction & CAD Mastery LMS</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/navbar-fix.css">
+    <link rel="stylesheet" href="../css/utils.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+    <div id="navbar-container"></div>
+
+    <!-- Header -->
+    <header class="bg-primary text-white py-5">
+        <div class="container text-center">
+            <h1 class="text-4xl font-bold mb-2">Contact Us</h1>
+            <p class="text-lg opacity-90">We're here to help. Reach out anytime!</p>
+        </div>
+    </header>
+
+    <!-- Contact Content -->
+    <section class="section-padding">
+        <div class="container">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
+                <!-- Contact Form -->
+                <div class="bg-white p-5 rounded shadow">
+                    <h2 class="text-2xl font-bold mb-4">Send Us a Message</h2>
+                    <form id="contact-form">
+                        <div class="mb-3">
+                            <label class="block text-sm font-medium mb-1">Your Name *</label>
+                            <input type="text" name="name" required class="w-full p-2 border rounded">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="block text-sm font-medium mb-1">Email Address *</label>
+                            <input type="email" name="email" required class="w-full p-2 border rounded">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="block text-sm font-medium mb-1">Subject *</label>
+                            <input type="text" name="subject" required class="w-full p-2 border rounded">
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="block text-sm font-medium mb-1">Message *</label>
+                            <textarea name="message" rows="5" required class="w-full p-2 border rounded"></textarea>
+                        </div>
+
+                        <div class="mb-3">
+                            <label class="block text-sm font-medium mb-1">Attachment (Optional)</label>
+                            <input type="file" name="attachment" class="w-full p-2 border rounded">
+                            <p class="text-xs text-gray-500 mt-1">Maximum file size:5GB</p>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary w-full">
+                            <i class="fas fa-paper-plane mr-2"></i> Send Message
+                        </button>
+                    </form>
+                </div>
+
+                <!-- Contact Information -->
+                <div>
+                    <div class="bg-gradient-secondary text-white p-5 rounded shadow mb-4">
+                        <h2 class="text-2xl font-bold mb-4">Get In Touch</h2>
+                        <p class="mb-4 opacity-90">
+                            Have questions about our courses? Need technical support? We're here to help!
+                        </p>
+
+                        <div class="space-y-4">
+                            <!-- Email -->
+                            <div class="flex items-start">
+                                <div class="text-2xl mr-3">
+                                    <i class="fas fa-envelope"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">Email Support</h4>
+                                    <a href="mailto:support@atitocivilacademy.com" class="opacity-90 hover:opacity-100">
+                                        support@atitocivilacademy.com
+                                    </a>
+                                </div>
+                            </div>
+
+                            <!-- WhatsApp -->
+                            <div class="flex items-start">
+                                <div class="text-2xl mr-3">
+                                    <i class="fab fa-whatsapp"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">WhatsApp</h4>
+                                    <a href="https://wa.me/1234567890" target="_blank"
+                                        class="opacity-90 hover:opacity-100">
+                                        +1 (234) 567-890
+                                    </a>
+                                    <p class="text-sm opacity-75 mt-1">Available 24/7</p>
+                                </div>
+                            </div>
+
+                            <!-- Location -->
+                            <div class="flex items-start">
+                                <div class="text-2xl mr-3">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">Location</h4>
+                                    <p class="opacity-90">
+                                        123 Construction Avenue<br>
+                                        Engineering District<br>
+                                        City, State 12345
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- Operating Hours -->
+                            <div class="flex items-start">
+                                <div class="text-2xl mr-3">
+                                    <i class="fas fa-clock"></i>
+                                </div>
+                                <div>
+                                    <h4 class="font-bold mb-1">Operating Hours</h4>
+                                    <p class="opacity-90">
+                                        Monday - Friday: 8:00 AM - 6:00 PM<br>
+                                        Saturday: 9:00 AM - 4:00 PM<br>
+                                        Sunday: Closed
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- FAQ Link -->
+                    <div class="bg-white p-5 rounded shadow">
+                        <h3 class="text-xl font-bold mb-2">Frequently Asked Questions</h3>
+                        <p class="text-gray-600 mb-3">
+                            Before reaching out, you might find answers in our FAQ section.
+                        </p>
+                        <a href="#" class="btn btn-outline-primary">
+                            <i class="fas fa-question-circle mr-2"></i> Visit FAQ
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Map Section -->
+            <div class="mt-5">
+                <div class="bg-gray-200 rounded shadow overflow-hidden" style="height: 450px;">
+                    <iframe src="https://maps.google.com/maps?q=Kisumu,Kenya&t=&z=13&ie=UTF8&iwloc=&output=embed"
+                        width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+
+    <script src="../js/auth.js"></script>
+    <script src="../js/ui.js"></script>
+    <script src="../js/main.js"></script>
+
+    <script src="../js/pages/contact-page.js"></script>
+    <script src="../js/dark-mode.js"></script>
+</body>
+
+</html>

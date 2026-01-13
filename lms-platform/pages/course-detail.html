@@ -1,0 +1,73 @@
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/colors.css">
+<link rel="stylesheet" href="../css/navbar-fix.css">
+<link rel="stylesheet" href="../css/utils.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div id="navbar-container"></div>
+
+    <!-- Course Header -->
+    <header class="bg-gray-900 text-white py-5">
+        <div class="container">
+            <div class="flex flex-col md:flex-row gap-5 items-center">
+                <div class="flex-1">
+                    <span id="course-category-badge"
+                        class="bg-secondary text-dark text-xs font-bold px-2 py-1 rounded mb-2 inline-block">Category</span>
+                    <h1 id="course-title" class="text-3xl md:text-4xl font-bold mb-3">Course Title</h1>
+                    <p id="course-description" class="text-gray-400 text-lg mb-4">Course Description...</p>
+                    <div class="flex gap-4 text-sm text-gray-400 mb-4">
+                        <span><i class="fas fa-user-tie"></i> <span id="course-instructor">Instructor</span></span>
+                        <span><i class="fas fa-clock"></i> <span id="course-duration">Duration</span></span>
+                    </div>
+                    <button id="enroll-btn" class="btn btn-primary btn-lg">Start Learning</button>
+                </div>
+                <div class="w-full md:w-1/3">
+                    <img id="course-image" src="" alt="Course"
+                        class="rounded-lg shadow-lg w-full object-cover h-64 bg-gray-800">
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="section-padding">
+        <div class="container grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- Main Content -->
+            <div class="md:col-span-2">
+                <div class="bg-white p-5 rounded shadow mb-5">
+                    <h2 class="text-2xl font-bold mb-4 border-b pb-2">Course Curriculum</h2>
+                    <div id="module-list" class="space-y-4">
+                        <!-- Modules injected here -->
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sidebar -->
+            <div>
+                <div class="bg-white p-5 rounded shadow sticky top-24">
+                    <h3 class="text-xl font-bold mb-3">What you'll learn</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2 mb-4">
+                        <li>Industry standard practices</li>
+                        <li>Practical application of skills</li>
+                        <li>Software mastery</li>
+                        <li>Project management basics</li>
+                    </ul>
+                    <h3 class="text-xl font-bold mb-3">Requirements</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Basic computer knowledge</li>
+                        <li>Passion for construction</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+
+    <script type="module" src="../js/course-detail-page.js"></script>
+    <script src="../js/dark-mode.js"></script>
+</body>
+
+</html>
